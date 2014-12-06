@@ -33,7 +33,7 @@
     </section>
     <section id="conect_phone">
       <div class="safe-all center-all">
-        <div class="logo center-all"></div>
+        <h1>HOLA MUNDO</h1>
       </div>
     </section>
     <script type="text/javascript" src="/scripts/vendor/jquery-2.1.1.min.js"></script>
