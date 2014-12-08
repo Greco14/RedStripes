@@ -19,26 +19,61 @@
     <meta itemprop="image" content="">
     <meta itemprop="image" content="">
     <link rel="icon" type="image/png" href="fav.ico">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
+  <script src="/scripts/analytics.js"></script>
   <body>
-    <section id="conect_facebook">
-      <div class="safe-all center-all">
-        <h2>WELCOME TO RED STRIPE LOYALTY PROGRAM</h2>
-        <h4>To enter this site need to connect with facebook to verify you are +18</h4>
-        <div class="btn_conect btns">
-          <p>Connect</p>
+    <div id="wrapper">
+      <div id="age_gate" class="imgbG">
+        <div class="holdwithGrid">
+          <div class="safe-all">
+            <div class="logo"></div>
+            <h3>You must 18 year or older to participate. <br> Please confirm your DOB</h3>
+            <div class="holdDOB">
+              <div id="holD" class="dayInput boxIp btn_cursor">
+                <div id="hoDays" data-howInside="5" class="mainselector">
+                  <p>Day</p>
+                </div>
+                <div id="hoDays-in" class="holdDrops"></div>
+              </div>
+              <div id="holM" class="monthInput boxIp btn_cursor">
+                <div id="hoMonths" data-howInside="5" class="mainselector">
+                  <p>Month</p>
+                </div>
+                <div id="hoMonths-in" class="holdDrops"></div>
+              </div>
+              <div id="holdY" class="yearInput boxIp btn_cursor">
+                <div id="hoYears" data-howInside="5" class="mainselector">
+                  <p>Year</p>
+                </div>
+                <div id="hoYears-in" class="holdDrops"></div>
+              </div>
+            </div>
+            <div class="downHold">
+              <div class="remindMeHold">
+                <div class="checkbox_age btn_cursor"></div>
+                <p>Remember Me </p>
+              </div>
+              <div class="btsumit btn_cursor">
+                <p>Submit</p>
+              </div>
+            </div>
+            <div class="lineBtm"></div>
+            <div class="holdLow">
+              <P>Do you have a Web Access Code via SMS?<br><span> Enter Here </span></P>
+              <div class="inputbtm">
+                <input type="text" name="code_agegate" id="age_gate_code" class="code">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <section id="conect_phone">
-      <div class="safe-all center-all">
-        <div class="logo center-all"></div>
-      </div>
-    </section>
+    </div>
     <script type="text/javascript" src="/scripts/vendor/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/scripts/vendor/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="/scripts/vendor/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/vendor.bundle-min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

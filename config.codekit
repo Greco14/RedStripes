@@ -1,7 +1,23 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18027",
 "files": {
+	"\/development\/sass\/_age.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_age.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_age.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_phone.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -50,6 +66,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/scripts\/analytics.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/analytics.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/analytics.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/gui\/_dropdown.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_dropdown.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_dropdown-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -58,6 +96,17 @@
 		"outputAbbreviatedPath": "\/public\/scripts\/main.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/min\/analytics-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/min\/analytics-min.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/min\/min\/analytics-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -127,6 +176,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/age\/_age.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/age\/_age.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/age\/_age.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/development\/views\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -137,6 +197,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1392,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/bg.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/drop_down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1205,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/drop_down.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/drop_down.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/img_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/img_bg.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/img_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41796,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/logo.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/remider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1203,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/remider.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/remider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/submit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1320,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/submit.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/submit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/assets\/images\/logo.png": {
 		"fileType": 32768,
@@ -158,15 +284,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/index.php": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -175,6 +292,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/public\/scripts\/analytics.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/analytics.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/min\/analytics-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/public\/scripts\/main.js": {
 		"fileType": 64,
@@ -241,6 +369,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/xml\/smsIt.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/xml\/smsIt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -645,10 +782,6 @@
 			"flagValue": -1
 			},
 		"shelljs": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},

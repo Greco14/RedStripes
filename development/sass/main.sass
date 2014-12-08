@@ -1,21 +1,24 @@
 @import "_vars"
-@import "_phone"
+@import "_age"
 
 
 html,body
 	margin: 0 auto
-	min-width: 810px
+	min-width: 980px
 	width: 100%
-	min-height: 650px
+	min-height: 760px
+	height: 100%
 	position: relative
 	font-family: helvetica
-	background-color: $fondo
+	font-family: 'Lato', sans-serif
+
+	
 	
 
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input
-	color: $font-gris
+	color: $blanco
 	text-decoration: none
 
 p
@@ -35,7 +38,7 @@ h2,h3, h4
 	font-size: 25px
 	margin: 0 auto
 	text-align: center
-	color: $negro-h
+	color: $negro
 h3 
 	font-size: 20px
 h4
@@ -109,15 +112,40 @@ section
 .btn-borders
 	border-radius: 5px
 
+#wrapper
+	width: 100%
+	height: 100%
+	min-height: 780px
+	position: relative
+	.imgbG
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		.holdwithGrid
+			width: 100%
+			height: 90%
+			position: absolute
+			top: 10%
+			left: 0
+			background-image: url('../assets/images/gui/age/bg.png')
 .safe-all
-	width: 620px
-	height: 200px
-	.logo
-		width: 274px
-		height: 407px
-		background-image: url("../assets/images/logo.png")
-		background-repeat: no-repeat
-		background-position: center
+	width: 980px
+	height: 720px
+	margin: 0 auto
+.btn_cursor
+	cursor: pointer
+
+input[type="text"]
+	width: 100%
+	height: 100%
+	position: relative
+	background-color: $blanco
+	border: none
+	color: $negro
+
+
 
 
 

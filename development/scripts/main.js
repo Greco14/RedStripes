@@ -1,4 +1,4 @@
-
+var Received;
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1552388065005528',
@@ -17,18 +17,35 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
-  $(function(){
+function sending_sms(testing){
+
     $.ajax({
-      url:'http://services.newcomwi.com/mt/http/run?username=redstriperds&password=R3DP8Shrds&sender=8764447744&recipient=18765852845&messageType=SMS&message=KeepTesting',
-      dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
-      success:function (responseData, textStatus, jqXHR) {
+      url:'http://services.newcomwi.com/mt/http/run?username=redstriperds&password=R3DP8Shrds&sender=8764447744&recipient=18765852845&messageType=SMS&message='+testing+'',
+      dataType: 'jsonp',
+      beforeSend: function( xhr ) {
+          xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+        }
+      }) // Notice! JSONP <-- P (lowercase)
+      .done(function (responseData, textStatus, jqXHR) {
           console.log("in");
           // var data = JSON.parse(responseData['AuthenticateUserResult']);
           console.log(responseData, textStatus, jqXHR);
-      },
-      error: function (responseData, textStatus, errorThrown) {
+      })
+      .fail( function (responseData, textStatus, errorThrown) {
+         console.log("out");
           console.log(responseData, textStatus, errorThrown);
-      }
     });
-  });
+  };
 
+function myfunc(json) {
+  console.log(json);
+}
+Main = {
+  init: function(){
+    dropdowns = new Dropdowns();
+    dropdowns.init();
+  },
+};
+$(function(){
+  Main.init();
+});
