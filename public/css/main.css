@@ -6,7 +6,7 @@
   background-size: cover; }
   #age_gate .safe-all {
     padding-top: 60px;
-    height: 660px; }
+    height: 640px; }
   #age_gate .logo {
     width: 155px;
     height: 231px;
@@ -104,9 +104,6 @@
       position: relative;
       float: left;
       background-color: #ed1c24;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
       background-image: url("../assets/images/gui/age/submit.png");
       background-position: 20px 11px;
       background-repeat: no-repeat; }
@@ -133,6 +130,126 @@
       margin: 0 auto; }
       #age_gate .holdLow .inputbtm input {
         text-align: center; }
+
+.hold_ageGate {
+  display: block; }
+
+.sorry_hold, .holdConfirmation {
+  display: none; }
+
+.holdConfirmation input[type="text"] {
+  color: #bebebe; }
+.holdConfirmation h2 {
+  color: #ffffff;
+  margin-bottom: 30px; }
+.holdConfirmation .hold_names {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px; }
+  .holdConfirmation .hold_names .inputsnames {
+    width: 225px;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-right: 25px; }
+    .holdConfirmation .hold_names .inputsnames .this0 {
+      margin-right: 0; }
+.holdConfirmation .hold_date {
+  width: 260px;
+  height: 75px;
+  margin-bottom: 15px; }
+  .holdConfirmation .hold_date h4 {
+    color: #ffffff;
+    margin-bottom: 10px; }
+  .holdConfirmation .hold_date .holdDates {
+    width: 65px;
+    height: 35px;
+    float: left; }
+    .holdConfirmation .hold_date .holdDates input[type="text"] {
+      text-align: center !important; }
+    .holdConfirmation .hold_date .holdDates.centerOnes {
+      margin-left: 18px;
+      margin-right: 18px; }
+    .holdConfirmation .hold_date .holdDates.lastO {
+      width: 89px; }
+.holdConfirmation .hold_cel {
+  width: 210px;
+  height: 65px;
+  margin-bottom: 30px; }
+  .holdConfirmation .hold_cel h4 {
+    color: #ffffff;
+    margin-bottom: 10px; }
+  .holdConfirmation .hold_cel .boxlada {
+    width: 70px;
+    height: 35px;
+    background-color: #2b2b2b;
+    float: left; }
+    .holdConfirmation .hold_cel .boxlada p {
+      color: #ffffff;
+      top: 7px;
+      position: relative;
+      text-align: center; }
+  .holdConfirmation .hold_cel .holdnumber {
+    width: 56px;
+    height: 35px;
+    float: left;
+    overflow: hidden; }
+    .holdConfirmation .hold_cel .holdnumber input[type="text"] {
+      text-align: center !important; }
+    .holdConfirmation .hold_cel .holdnumber.centeIt {
+      margin-left: 10px;
+      margin-right: 10px; }
+.holdConfirmation .hold_btns {
+  width: 320px;
+  height: 40px; }
+  .holdConfirmation .hold_btns .btns_btm {
+    width: 142px;
+    height: 42px;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat; }
+    .holdConfirmation .hold_btns .btns_btm p {
+      position: relative;
+      left: 48px;
+      top: 10px;
+      color: #ffffff;
+      font-weight: 700; }
+    .holdConfirmation .hold_btns .btns_btm.btn_conf {
+      margin-left: 28px;
+      background-color: #ed1c24;
+      background-image: url("../assets/images/gui/age/confi.png");
+      background-position: 17px center; }
+    .holdConfirmation .hold_btns .btns_btm.btn_back {
+      background-color: #ffffff;
+      background-image: url("../assets/images/gui/age/back.png");
+      background-position: 20px center; }
+      .holdConfirmation .hold_btns .btns_btm.btn_back p {
+        color: #000000; }
+
+.sorry_hold h2 {
+  color: #ffffff;
+  margin-bottom: 40px; }
+.sorry_hold .hold_btns {
+  width: 142px;
+  height: 42px; }
+  .sorry_hold .hold_btns .btns_btm {
+    width: 142px;
+    height: 42px;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat; }
+    .sorry_hold .hold_btns .btns_btm p {
+      position: relative;
+      left: 48px;
+      top: 10px;
+      color: #ffffff;
+      font-weight: 700; }
+    .sorry_hold .hold_btns .btns_btm.btn_back {
+      background-color: #ffffff;
+      background-image: url("../assets/images/gui/age/back.png");
+      background-position: 20px center; }
+      .sorry_hold .hold_btns .btns_btm.btn_back p {
+        color: #000000; }
 
 html, body {
   margin: 0 auto;
@@ -234,7 +351,13 @@ section {
   top: 0;
   bottom: 0; }
 
+.centerIt-h {
+  position: relative;
+  margin: 0 auto; }
+
 .btn-borders {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
 
 #wrapper {
@@ -264,10 +387,11 @@ section {
 .btn_cursor {
   cursor: pointer; }
 
-input[type="text"] {
-  width: 100%;
+input[type="text"], input[type="number"] {
+  width: 95%;
   height: 100%;
   position: relative;
+  padding-left: 5%;
   background-color: #ffffff;
   border: none;
   color: #000000; }

@@ -4,7 +4,17 @@ Dropdowns = function(){
 		dp_days: $('#holD'),
 		dp_years: $('#holdY'),
 		dp_months: $('#holM'),
-		boxIp: $('.mainselector')
+		boxIp: $('.mainselector'),
+		day_input: $('.day_check'),
+		month_input: $('.month_check'),
+		year_input: $('.year_check'),
+		btn_submit: $('.btsumit'),
+		gate: $('.hold_ageGate'),
+		confirm: $('.holdConfirmation'),
+		sorry: $('.sorry_hold'),
+		btn_back: $('.btn_back'),
+
+
 	};
 	this.tlOpen = new TimelineLite();
 	this.tlClose = new TimelineLite();
@@ -22,11 +32,11 @@ Dropdowns.prototype.bind = function(){
 		var elId = $(this).attr('id');
 		var howM = $(this).attr('data-howInside');
 		var alto= howM*30;
-		console.log(elId, alto);
+		
 		self.animation('close');
 		setTimeout(function(){
 			self.animation('open', elId , alto)
-		},270)
+		},270);
 		
 	});
 	self.create();
@@ -36,6 +46,16 @@ Dropdowns.prototype.bind = function(){
 		var este = s.dp_days.find('.mainselector');
 		este.html('<p>'+wich+'</p>');
 		self.animation('close');
+		s.day_input.val(wich);
+	});
+	s.dp_months.on('click','.indeOnes',function(){
+		var wich = $(this).attr('data-info');
+		var wich2 = $(this).attr('data-nummth')
+		
+		var este3 = s.dp_months.find('.mainselector');
+		este3.html('<p>'+wich+'</p>');
+		self.animation('close');
+		s.month_input.val(wich2);
 	});
 	s.dp_years.on('click','.indeOnes',function(){
 		var wich = $(this).attr('data-info');
@@ -43,15 +63,33 @@ Dropdowns.prototype.bind = function(){
 		var este2 = s.dp_years.find('.mainselector');
 		este2.html('<p>'+wich+'</p>');
 		self.animation('close');
+		s.year_input.val(wich);
 
 	});
-	s.dp_months.on('click','.indeOnes',function(){
-		var wich = $(this).attr('data-info');
-		console.log('month'+ wich)
-		var este3 = s.dp_months.find('.mainselector');
-		este3.html('<p>'+wich+'</p>');
-		self.animation('close');
+
+	s.btn_submit.on('click',function(){
+		var hoy = new Date().getFullYear();
+		var edad= hoy-18;
+		var chose= $('#year_gate').val();
+		console.log(edad+' '+chose);
+		if(chose <= edad){
+			console.log('its old');
+			s.gate.css('display', 'none');
+			s.confirm.css('display', 'block');
+		}else{
+			console.log('its not old');
+			s.gate.css('display', 'none');
+			s.sorry.css('display', 'block');
+		}
 	});
+	s.btn_back.on('click',function(){
+		s.gate.css('display', 'block');
+		s.sorry.css('display', 'none');
+		s.confirm.css('display', 'none');
+	})
+
+
+
 
 };
 
@@ -92,12 +130,12 @@ Dropdowns.prototype.create = function(){
 	var year_starts = years-17;
 	var year_finish = years-110;
 
-	for (var y = year_starts ; y >= year_finish ; y -- ) {
+	for (var y = years ; y >= year_finish ; y -- ) {
 		var cadena= '<div data-info="'+y+'" class="indeOnes"><p>'+y+'</p> </div>';
 		$('#hoYears-in').append(cadena);
 	};
 	for (var l = 0; l < mths.length; l++) {
-		var cadena= '<div data-info="'+mths[l]+'" class="indeOnes"><p>'+mths[l]+'</p> </div>';
+		var cadena= '<div data-info="'+mths[l]+'" data-nummth="'+l+'" class="indeOnes"><p>'+mths[l]+'</p> </div>';
 		$('#hoMonths-in').append(cadena);
 
 	};

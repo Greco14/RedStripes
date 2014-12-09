@@ -20,7 +20,7 @@
     <meta itemprop="image" content="">
     <link rel="icon" type="image/png" href="fav.ico">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <script src="/scripts/analytics.js"></script>
   <body>
@@ -29,51 +29,107 @@
         <div class="holdwithGrid">
           <div class="safe-all">
             <div class="logo"></div>
-            <h3>You must 18 year or older to participate. <br> Please confirm your DOB</h3>
-            <div class="holdDOB">
-              <div id="holD" class="dayInput boxIp btn_cursor">
-                <div id="hoDays" data-howInside="5" class="mainselector">
-                  <p>Day</p>
+            <div class="hold_ageGate">
+              <h3>You must 18 year or older to participate. <br> Please confirm your DOB</h3>
+              <div class="holdDOB">
+                <div id="holD" class="dayInput boxIp btn_cursor">
+                  <input type="hidden" id="day_gate" class="day_check">
+                  <div id="hoDays" data-howInside="5" class="mainselector">
+                    <p>Day</p>
+                  </div>
+                  <div id="hoDays-in" class="holdDrops"></div>
                 </div>
-                <div id="hoDays-in" class="holdDrops"></div>
+                <div id="holM" class="monthInput boxIp btn_cursor">
+                  <input type="hidden" id="month_gate" class="month_check">
+                  <div id="hoMonths" data-howInside="5" class="mainselector">
+                    <p>Month</p>
+                  </div>
+                  <div id="hoMonths-in" class="holdDrops"></div>
+                </div>
+                <div id="holdY" class="yearInput boxIp btn_cursor">
+                  <input type="hidden" id="year_gate" class="year_check">
+                  <div id="hoYears" data-howInside="5" class="mainselector">
+                    <p>Year</p>
+                  </div>
+                  <div id="hoYears-in" class="holdDrops"></div>
+                </div>
               </div>
-              <div id="holM" class="monthInput boxIp btn_cursor">
-                <div id="hoMonths" data-howInside="5" class="mainselector">
-                  <p>Month</p>
+              <div class="downHold">
+                <div class="remindMeHold">
+                  <div class="checkbox_age btn_cursor"></div>
+                  <p>Remember Me </p>
                 </div>
-                <div id="hoMonths-in" class="holdDrops"></div>
+                <div class="btsumit btn_cursor btn-borders">
+                  <p>Submit</p>
+                </div>
               </div>
-              <div id="holdY" class="yearInput boxIp btn_cursor">
-                <div id="hoYears" data-howInside="5" class="mainselector">
-                  <p>Year</p>
+              <div class="lineBtm"></div>
+              <div class="holdLow">
+                <P>Do you have a Web Access Code via SMS?<br><span> Enter Here </span></P>
+                <div class="inputbtm">
+                  <input type="text" name="code_agegate" id="age_gate_code" class="code">
                 </div>
-                <div id="hoYears-in" class="holdDrops"></div>
               </div>
             </div>
-            <div class="downHold">
-              <div class="remindMeHold">
-                <div class="checkbox_age btn_cursor"></div>
-                <p>Remember Me </p>
+            <div class="holdConfirmation">
+              <h2>Please confirm your information</h2>
+              <div class="hold_names centerIt-h">
+                <div class="inputsnames">
+                  <input type="text" name="name" id="name_confirmation" placeholder="Name">
+                </div>
+                <div class="inputsnames this0">
+                  <input type="text" name="lastname" id="Lastname_confirmation" placeholder="Lastname">
+                </div>
               </div>
-              <div class="btsumit btn_cursor">
-                <p>Submit</p>
+              <div class="hold_date centerIt-h">
+                <h4>Date of Birth</h4>
+                <div class="holdDates">
+                  <input type="text" name="day" id="day_confirmation" class="day_check">
+                </div>
+                <div class="holdDates centerOnes">
+                  <input type="text" name="month" id="month_confirmation" class="month_check">
+                </div>
+                <div class="holdDates lastO">
+                  <input type="text" name="year" id="year_confirmation" class="year_check">
+                </div>
+              </div>
+              <div class="hold_cel centerIt-h">
+                <h4>Cell Number</h4>
+                <div class="boxlada">
+                  <p>+1 (876)</p>
+                </div>
+                <div class="holdnumber centeIt">
+                  <input type="text" name="cell" id="cel_confirmation">
+                </div>
+                <div class="holdnumber">
+                  <input type="text" name="cell" id="cel2_confirmation">
+                </div>
+              </div>
+              <div class="hold_btns centerIt-h">
+                <div class="btn_back btn_cursor btns_btm btn-borders">
+                  <p>Go Back</p>
+                </div>
+                <div class="btn_conf btn_cursor btns_btm btn-borders">
+                  <p>Confirm</p>
+                </div>
               </div>
             </div>
-            <div class="lineBtm"></div>
-            <div class="holdLow">
-              <P>Do you have a Web Access Code via SMS?<br><span> Enter Here </span></P>
-              <div class="inputbtm">
-                <input type="text" name="code_agegate" id="age_gate_code" class="code">
+            <div class="sorry_hold">
+              <h2>Sorry, you must be over 18 to participate</h2>
+              <div class="hold_btns centerIt-h">
+                <div class="btn_back btn_cursor btns_btm btn-borders">
+                  <p>Go Back</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="/scripts/vendor/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/scripts/vendor/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="/scripts/vendor/TweenMax.min.js"></script>
-    <script type="text/javascript" src="/scripts/vendor/vendor.bundle-min.js"></script>
+    <script type="text/javascript" src="scripts/vendor/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/vendor/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="scripts/vendor/TweenMax.min.js"></script>
+    <script type="text/javascript" src="scripts/vendor/vendor.bundle-min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

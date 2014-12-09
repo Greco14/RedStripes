@@ -108,9 +108,12 @@ section
 .center-vertical
 	top: 0
 	bottom: 0
+.centerIt-h
+	position: relative
+	margin: 0 auto
 
 .btn-borders
-	border-radius: 5px
+	+border-radius(5px)
 
 #wrapper
 	width: 100%
@@ -137,10 +140,11 @@ section
 .btn_cursor
 	cursor: pointer
 
-input[type="text"]
-	width: 100%
+input[type="text"], input[type="number"]
+	width: 95%
 	height: 100%
 	position: relative
+	padding-left: 5%
 	background-color: $blanco
 	border: none
 	color: $negro

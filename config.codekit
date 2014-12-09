@@ -187,6 +187,39 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/age\/_confirmation.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/age\/_confirmation.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/age\/_confirmation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/age\/_gate.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/age\/_gate.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/age\/_gate.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/age\/_sorry.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/age\/_sorry.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/age\/_sorry.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/development\/views\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -198,6 +231,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/public\/assets\/images\/gui\/age\/back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1121,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/back.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/back.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/age\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -205,6 +249,17 @@
 		"initialSize": 1392,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/bg.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/age\/confi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1229,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/confi.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/confi.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
