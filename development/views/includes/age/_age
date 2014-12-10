@@ -1,0 +1,7 @@
+.imgbG#age_gate
+	.holdwithGrid
+		.safe-all
+			.logo
+			include _gate
+			include _confirmation
+			include _sorry

@@ -18,6 +18,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_loggin.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_loggin.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_loggin.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_phone.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -77,6 +93,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/development\/scripts\/gui\/_dropdown.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_dropdown.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_dropdown-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/gui\/_viewManage.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_viewManage.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_viewManage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/gui\/sms_calling.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -132,17 +170,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/development\/views\/includes\/_cel_conect.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/_cel_conect.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/_cel_conect.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/development\/views\/includes\/_headers.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -154,13 +181,13 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/development\/views\/includes\/_loggin.jade": {
+	"\/development\/views\/includes\/_scripts.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/_loggin.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/_loggin.html",
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_scripts.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_scripts.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -205,6 +232,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/age\/_sorry.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/age\/_sorry.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/login\/_login.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -304,6 +342,17 @@
 		"initialSize": 1320,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/submit.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/age\/submit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/login\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24058,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/login\/bg.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/login\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -409,6 +458,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/TweenMax.min.js",
 		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/TweenMax.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/vendor\/vendor.bundle-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.bundle-min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/vendor.bundle-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

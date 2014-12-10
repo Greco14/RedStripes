@@ -27,7 +27,7 @@
     position: relative;
     margin: 0 auto;
     margin-bottom: 30px;
-    z-index: 3; }
+    z-index: 1; }
     #age_gate .holdDOB .boxIp {
       background-color: #ffffff;
       float: left;
@@ -251,6 +251,21 @@
       .sorry_hold .hold_btns .btns_btm.btn_back p {
         color: #000000; }
 
+#loggin_gate {
+  background-image: url(../assets/images/gui/login/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000000;
+  z-index: 1; }
+  #loggin_gate .holdwithGrid {
+    height: 100% !important;
+    top: 0 !important; }
+    #loggin_gate .holdwithGrid .safe-all {
+      padding-top: 60px;
+      height: 640px; }
+
 html, body {
   margin: 0 auto;
   min-width: 980px;
@@ -318,9 +333,9 @@ section {
   display: none; }
 
 .section-half, .section-third {
-  height: 85%;
   position: relative;
-  float: left; }
+  float: left;
+  height: 100%; }
 
 .section-half {
   width: 50%; }
@@ -383,6 +398,15 @@ section {
   width: 980px;
   height: 720px;
   margin: 0 auto; }
+  .safe-all .logo {
+    width: 155px;
+    height: 231px;
+    position: relative;
+    margin: 0 auto;
+    background-image: url("../assets/images/gui/age/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px; }
 
 .btn_cursor {
   cursor: pointer; }
