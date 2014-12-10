@@ -578,6 +578,99 @@
       .choose_bg .input_hold_verify .btn_verify p {
         left: 15px; }
 
+.holdbottoms_cols {
+  width: 600px;
+  height: 310px; }
+  .holdbottoms_cols .btnsHolers {
+    height: 100%;
+    margin-top: 20px; }
+    .holdbottoms_cols .btnsHolers .hold_btns {
+      width: 277px;
+      height: 40px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      position: relative; }
+      .holdbottoms_cols .btnsHolers .hold_btns .btns_btm {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: 20px center; }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm p {
+          top: 10px;
+          color: #242424; }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm .inTxt {
+          width: 221px;
+          height: 100%;
+          position: relative;
+          float: right; }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm .inTxt p {
+            left: 0; }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.btn_fb {
+          background-image: url("../assets/images/gui/choose/fb-ico2.png"); }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.btn_tt {
+          background-image: url("../assets/images/gui/choose/tt-ico2.png"); }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.btn_ig {
+          background-image: url("../assets/images/gui/choose/ig-ico2.png"); }
+        .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns {
+          background-color: #ed1c24; }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns p {
+            color: #ffffff; }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns:hover {
+            background-color: #b80000; }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns.btn_fb {
+            background-image: url("../assets/images/gui/choose/fb-ico.png"); }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns.btn_tt {
+            background-image: url("../assets/images/gui/choose/tt-ico.png"); }
+          .holdbottoms_cols .btnsHolers .hold_btns .btns_btm.red_btns.btn_ig {
+            background-image: url("../assets/images/gui/choose/ig-ico.png"); }
+  .holdbottoms_cols .thisIsthe p {
+    text-align: left !important;
+    margin-bottom: 10px;
+    color: #bebebe; }
+  .holdbottoms_cols .thisIsthe .holdsocials {
+    margin-bottom: 30px; }
+    .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow {
+      height: 60px;
+      width: 28px;
+      margin-left: 10px;
+      position: relative; }
+      .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .iconoIn {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: top; }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .iconoIn#fb {
+          background-image: url("../assets/images/gui/choose/fb-ico.png"); }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .iconoIn#tt {
+          background-image: url("../assets/images/gui/choose/tt-ico.png"); }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .iconoIn#ig {
+          background-image: url("../assets/images/gui/choose/ig-ico.png"); }
+      .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .btn_newletter {
+        width: 28px;
+        height: 28px;
+        background-image: url("../assets/images/gui/choose/nws.png");
+        background-position: center;
+        background-repeat: no-repeat; }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .btn_newletter.activeON {
+          background-color: #ed1c24; }
+      .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow.inconoTextss {
+        float: left; }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow.inconoTextss p {
+          float: left; }
+  .holdbottoms_cols .thisIsthe .btnContinuar {
+    width: 195px;
+    height: 40px; }
+    .holdbottoms_cols .thisIsthe .btnContinuar .btn_continueR {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff; }
+      .holdbottoms_cols .thisIsthe .btnContinuar .btn_continueR p {
+        color: #242424;
+        top: 10px;
+        text-align: center !important; }
+
 html, body {
   margin: 0 auto;
   min-width: 980px;
@@ -692,7 +785,8 @@ section {
   width: 100%;
   height: 100%;
   min-height: 780px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   #wrapper .imgbG {
     width: 100%;
     height: 100%;

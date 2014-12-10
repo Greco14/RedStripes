@@ -422,6 +422,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/development\/views\/receive.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/receive.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/assets\/images\/gui\/age\/back.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -528,6 +537,83 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/bg.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/fb-ico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1204,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/fb-ico.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/fb-ico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/fb-ico2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1222,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/fb-ico2.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/fb-ico2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/ig-ico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1430,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/ig-ico.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/ig-ico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/ig-ico2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1492,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/ig-ico2.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/ig-ico2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/nws.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1353,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/nws.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/nws.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/tt-ico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1512,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/tt-ico.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/tt-ico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/choose\/tt-ico2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1576,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/tt-ico2.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/choose\/tt-ico2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -719,6 +805,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/perfil\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/register\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -772,11 +869,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/index.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/receive.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/receive.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
