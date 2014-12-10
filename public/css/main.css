@@ -112,13 +112,6 @@
         font-weight: 700;
         top: 11px;
         left: 57px; }
-  #age_gate .lineBtm {
-    width: 620px;
-    height: 2px;
-    position: relative;
-    margin: 0 auto;
-    background-color: #bebebe;
-    margin-bottom: 30px; }
   #age_gate .holdLow {
     position: relative; }
     #age_gate .holdLow p {
@@ -134,8 +127,51 @@
 .hold_ageGate {
   display: block; }
 
-.sorry_hold, .holdConfirmation {
+.sorry_hold {
   display: none; }
+
+.sorry_hold h2 {
+  color: #ffffff;
+  margin-bottom: 40px; }
+.sorry_hold .hold_btns {
+  width: 142px;
+  height: 42px; }
+  .sorry_hold .hold_btns .btns_btm {
+    width: 142px;
+    height: 42px;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat; }
+    .sorry_hold .hold_btns .btns_btm p {
+      position: relative;
+      left: 48px;
+      top: 10px;
+      color: #ffffff;
+      font-weight: 700; }
+    .sorry_hold .hold_btns .btns_btm.btn_back {
+      background-color: #ffffff;
+      background-image: url("../assets/images/gui/age/back.png");
+      background-position: 20px center; }
+      .sorry_hold .hold_btns .btns_btm.btn_back p {
+        color: #000000; }
+
+.lineBtm {
+  width: 620px;
+  height: 2px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #bebebe;
+  margin-bottom: 30px; }
+
+.reg_form {
+  background-image: url(../assets/images/gui/confirm/bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .reg_form .safe-all {
+    padding-top: 60px;
+    height: 640px; }
 
 .holdConfirmation input[type="text"] {
   color: #bebebe; }
@@ -145,13 +181,14 @@
 .holdConfirmation .hold_names {
   width: 500px;
   height: 40px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
   .holdConfirmation .hold_names .inputsnames {
     width: 225px;
     height: 100%;
     position: relative;
     float: left;
-    margin-right: 25px; }
+    margin-right: 25px;
+    overflow: hidden; }
     .holdConfirmation .hold_names .inputsnames .this0 {
       margin-right: 0; }
 .holdConfirmation .hold_date {
@@ -172,11 +209,25 @@
       margin-right: 18px; }
     .holdConfirmation .hold_date .holdDates.lastO {
       width: 89px; }
+.holdConfirmation .hold_secondRow {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px; }
+  .holdConfirmation .hold_secondRow .inputNames {
+    width: 225px;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    overflow: hidden; }
 .holdConfirmation .hold_cel {
   width: 210px;
   height: 65px;
-  margin-bottom: 30px; }
+  float: left;
+  position: relative;
+  top: -24px; }
   .holdConfirmation .hold_cel h4 {
+    text-align: left;
     color: #ffffff;
     margin-bottom: 10px; }
   .holdConfirmation .hold_cel .boxlada {
@@ -219,6 +270,8 @@
       background-color: #ed1c24;
       background-image: url("../assets/images/gui/age/confi.png");
       background-position: 17px center; }
+      .holdConfirmation .hold_btns .btns_btm.btn_conf:hover {
+        background-color: #b80000; }
     .holdConfirmation .hold_btns .btns_btm.btn_back {
       background-color: #ffffff;
       background-image: url("../assets/images/gui/age/back.png");
@@ -226,45 +279,304 @@
       .holdConfirmation .hold_btns .btns_btm.btn_back p {
         color: #000000; }
 
-.sorry_hold h2 {
-  color: #ffffff;
-  margin-bottom: 40px; }
-.sorry_hold .hold_btns {
-  width: 142px;
-  height: 42px; }
-  .sorry_hold .hold_btns .btns_btm {
-    width: 142px;
-    height: 42px;
-    position: relative;
-    float: left;
-    background-repeat: no-repeat; }
-    .sorry_hold .hold_btns .btns_btm p {
-      position: relative;
-      left: 48px;
-      top: 10px;
-      color: #ffffff;
-      font-weight: 700; }
-    .sorry_hold .hold_btns .btns_btm.btn_back {
-      background-color: #ffffff;
-      background-image: url("../assets/images/gui/age/back.png");
-      background-position: 20px center; }
-      .sorry_hold .hold_btns .btns_btm.btn_back p {
-        color: #000000; }
+/* ******************************* Hasta abajo esta el login ******************* */
+#home_gate {
+  background-color: #000000; }
+  #home_gate .new-safe {
+    width: 100%;
+    height: 100%;
+    min-width: 640px;
+    min-height: 780px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    #home_gate .new-safe .half-in {
+      width: 50%;
+      float: left; }
+    #home_gate .new-safe .full-in {
+      width: 100%;
+      clear: both; }
+      #home_gate .new-safe .full-in .inImg {
+        width: 97.25% !important; }
+    #home_gate .new-safe .single-in {
+      height: 25%; }
+    #home_gate .new-safe .double-in {
+      height: 50%; }
+      #home_gate .new-safe .double-in .hover p {
+        bottom: 20px !important; }
+    #home_gate .new-safe .fullD-in {
+      height: 100%; }
+      #home_gate .new-safe .fullD-in .double-in .inImg {
+        height: 97.25% !important; }
+    #home_gate .new-safe .grid-item {
+      position: relative; }
+      #home_gate .new-safe .grid-item .inImg {
+        width: 95%;
+        height: 95%;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+        #home_gate .new-safe .grid-item .inImg#img-1 {
+          background-image: url("../assets/images/gui/login/img1.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-2 {
+          background-image: url("../assets/images/gui/login/img2.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-3 {
+          background-image: url("../assets/images/gui/login/img3.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-4 {
+          background-image: url("../assets/images/gui/login/img4.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-5 {
+          background-image: url("../assets/images/gui/login/img5.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-6 {
+          background-image: url("../assets/images/gui/login/img6.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-7 {
+          background-image: url("../assets/images/gui/login/img7.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-8 {
+          background-image: url("../assets/images/gui/login/img8.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-9 {
+          background-image: url("../assets/images/gui/login/img9.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-10 {
+          background-image: url("../assets/images/gui/login/img10.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-11 {
+          background-image: url("../assets/images/gui/login/img11.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-12 {
+          background-image: url("../assets/images/gui/login/img12.jpg"); }
+        #home_gate .new-safe .grid-item .inImg#img-13 {
+          background-image: url("../assets/images/gui/login/img13.jpg"); }
+        #home_gate .new-safe .grid-item .inImg .hover {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          background-color: rgba(255, 0, 10, 0.35); }
+          #home_gate .new-safe .grid-item .inImg .hover p {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            line-height: 15px; }
+          #home_gate .new-safe .grid-item .inImg .hover:hover {
+            opacity: 1; }
+    #home_gate .new-safe .top-section, #home_gate .new-safe .btm-section {
+      width: 100%;
+      position: relative; }
+    #home_gate .new-safe .top-section {
+      height: 60%;
+      background-image: url("../assets/images/gui/login/bg.jpg");
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      #home_gate .new-safe .top-section .low-ones {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        bottom: 10%;
+        left: 0%; }
+      #home_gate .new-safe .top-section h2 {
+        color: #ffffff;
+        margin-bottom: 30px; }
+        #home_gate .new-safe .top-section h2 span {
+          font-style: italic; }
+      #home_gate .new-safe .top-section .bts_d {
+        height: 40px; }
+        #home_gate .new-safe .top-section .bts_d p {
+          top: 10px; }
+      #home_gate .new-safe .top-section .btn_register {
+        width: 135px;
+        float: right;
+        margin-right: 10px; }
+      #home_gate .new-safe .top-section .btn_login {
+        width: 100px;
+        float: left;
+        margin-left: 15%; }
+    #home_gate .new-safe .btm-section {
+      height: 40%; }
 
-#loggin_gate {
-  background-image: url(../assets/images/gui/login/bg.jpg);
+.red_btns {
+  background-color: #ed1c24; }
+  .red_btns:hover {
+    background-color: #b80000; }
+  .red_btns p {
+    color: #ffffff;
+    text-align: center;
+    top: 10px; }
+
+#login_gate .holdwithGrid .safe-all {
+  margin-top: 5.7%; }
+
+#register_gate, .log_bg {
+  background-image: url(../assets/images/gui/register/bg.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-color: #000000;
-  z-index: 1; }
-  #loggin_gate .holdwithGrid {
-    height: 100% !important;
-    top: 0 !important; }
-    #loggin_gate .holdwithGrid .safe-all {
-      padding-top: 60px;
-      height: 640px; }
+  background-size: cover; }
+  #register_gate .btns_sosConect, .log_bg .btns_sosConect {
+    width: 100%;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 15px center; }
+    #register_gate .btns_sosConect p, .log_bg .btns_sosConect p {
+      color: #ffffff;
+      text-align: center;
+      top: 10px;
+      left: 7px; }
+  #register_gate .conect_facebook, .log_bg .conect_facebook {
+    background-color: #3a589e;
+    background-image: url(../assets/images/gui/register/fb.png); }
+  #register_gate .conect_twitter, .log_bg .conect_twitter {
+    background-color: #33ccff;
+    background-image: url(../assets/images/gui/register/tt.png); }
+  #register_gate .btn_getS, .log_bg .btn_getS {
+    margin-left: 28px;
+    background-position: 17px center; }
+    #register_gate .btn_getS p, .log_bg .btn_getS p {
+      left: 0 !important; }
+
+.logs {
+  margin-bottom: 70px !important; }
+
+.sossn {
+  height: 65px !important; }
+  .sossn h4 {
+    text-align: center;
+    color: #ffffff; }
+  .sossn .iconos {
+    width: 54px;
+    height: 23px;
+    margin-top: 10px; }
+    .sossn .iconos .icsin {
+      width: 50%;
+      height: 100%;
+      float: left;
+      background-image: url(../assets/images/gui/login/iconos.png); }
+      .sossn .iconos .icsin.icono1 {
+        background-position: left center; }
+      .sossn .iconos .icsin.icono2 {
+        background-position: right center; }
+
+.holdOtherR {
+  width: 240px;
+  height: 135px; }
+  .holdOtherR .topIns, .holdOtherR .btmIns {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    position: relative; }
+    .holdOtherR .topIns .inputlog, .holdOtherR .btmIns .inputlog {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      display: none; }
+      .holdOtherR .topIns .inputlog.activeInput, .holdOtherR .btmIns .inputlog.activeInput {
+        display: block; }
+
+.hold_btn {
+  width: 300px;
+  height: 80px; }
+  .hold_btn .btn_log {
+    width: 144px;
+    height: 40px; }
+  .hold_btn .alert {
+    margin-top: 10px; }
+    .hold_btn .alert p {
+      text-align: center; }
+
+.hold_btn2 {
+  width: 95px;
+  height: 35px;
+  position: relative; }
+  .hold_btn2 .btn_back {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url("../assets/images/gui/age/back.png");
+    background-position: 7px center;
+    background-repeat: no-repeat; }
+    .hold_btn2 .btn_back p {
+      color: #000000;
+      text-align: center;
+      top: 7px;
+      left: 7px; }
+
+.choose_bg {
+  background-image: url(../assets/images/gui/choose/bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .choose_bg h2, .choose_bg h3, .choose_bg h1 {
+    color: #ffffff; }
+    .choose_bg h2 span, .choose_bg h3 span, .choose_bg h1 span {
+      font-style: italic; }
+  .choose_bg h1 {
+    margin-bottom: 20px; }
+  .choose_bg .holdVeryfied_btns {
+    width: 430px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px; }
+    .choose_bg .holdVeryfied_btns .btns_btm {
+      width: 150px;
+      height: 40px;
+      position: relative;
+      float: left; }
+      .choose_bg .holdVeryfied_btns .btns_btm.btn_sms {
+        float: right; }
+  .choose_bg .lineBtm {
+    width: 430px; }
+  .choose_bg p {
+    text-align: center; }
+    .choose_bg p span {
+      font-weight: 700; }
+  .choose_bg .holdVeryfied_btn {
+    width: 168px;
+    height: 40px;
+    margin-top: 60px; }
+    .choose_bg .holdVeryfied_btn .btns_btm {
+      width: 150px;
+      height: 40px;
+      position: relative;
+      float: left;
+      background-image: url("../assets/images/gui/choose/back.png");
+      background-position: 13px center;
+      background-repeat: no-repeat; }
+      .choose_bg .holdVeryfied_btn .btns_btm.smsV {
+        background-color: #ffffff;
+        background-image: url("../assets/images/gui/age/back.png"); }
+        .choose_bg .holdVeryfied_btn .btns_btm.smsV p {
+          color: #000000; }
+    .choose_bg .holdVeryfied_btn .btn_getS {
+      width: 150px;
+      height: 45px;
+      position: relative; }
+      .choose_bg .holdVeryfied_btn .btn_getS p {
+        top: 3px; }
+  .choose_bg .input_hold_verify {
+    width: 380px;
+    height: 40px;
+    margin-top: 30px; }
+    .choose_bg .input_hold_verify .holdinpu {
+      width: 260px;
+      height: 40px;
+      float: left;
+      overflow: hidden; }
+    .choose_bg .input_hold_verify .btn_verify {
+      width: 100px;
+      height: 40px;
+      background-image: url("../assets/images/gui/age/confi.png");
+      background-position: 17px center;
+      float: left;
+      background-repeat: no-repeat;
+      margin-left: 20px; }
+      .choose_bg .input_hold_verify .btn_verify p {
+        left: 15px; }
 
 html, body {
   margin: 0 auto;
@@ -281,7 +593,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-decoration: none; }
 
 p {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 sub {
   font-size: 10px;
@@ -385,33 +698,36 @@ section {
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    z-index: 1; }
     #wrapper .imgbG .holdwithGrid {
       width: 100%;
-      height: 90%;
+      height: 100%;
       position: absolute;
-      top: 10%;
+      top: 0;
       left: 0;
       background-image: url("../assets/images/gui/age/bg.png"); }
 
 .safe-all {
   width: 980px;
   height: 720px;
-  margin: 0 auto; }
-  .safe-all .logo {
-    width: 155px;
-    height: 231px;
-    position: relative;
-    margin: 0 auto;
-    background-image: url("../assets/images/gui/age/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px; }
+  margin: 0 auto;
+  margin-top: 7%; }
+
+.logo {
+  width: 155px;
+  height: 231px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("../assets/images/gui/age/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px; }
 
 .btn_cursor {
   cursor: pointer; }
 
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], input[type="password"] {
   width: 95%;
   height: 100%;
   position: relative;
