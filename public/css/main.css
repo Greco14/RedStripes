@@ -1078,6 +1078,39 @@
         color: #ffffff;
         font-weight: 700;
         font-style: italic; }
+  #prizes_gate .safe-all .holdVeryfied_btn {
+    width: 142px;
+    height: 42px;
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 30px;
+    right: -150px; }
+    #prizes_gate .safe-all .holdVeryfied_btn .btns_btm {
+      width: 142px;
+      height: 42px;
+      position: relative;
+      float: left;
+      background-repeat: no-repeat; }
+      #prizes_gate .safe-all .holdVeryfied_btn .btns_btm p {
+        position: relative;
+        left: 8px;
+        top: 10px;
+        color: #ffffff;
+        font-weight: 700; }
+      #prizes_gate .safe-all .holdVeryfied_btn .btns_btm.btn_conf {
+        margin-left: 28px;
+        background-color: #ed1c24;
+        background-image: url("../assets/images/gui/age/confi.png");
+        background-position: 17px center; }
+        #prizes_gate .safe-all .holdVeryfied_btn .btns_btm.btn_conf:hover {
+          background-color: #b80000; }
+      #prizes_gate .safe-all .holdVeryfied_btn .btns_btm.btn_back {
+        background-color: #ffffff;
+        background-image: url("../assets/images/gui/age/back.png");
+        background-position: 20px center; }
+        #prizes_gate .safe-all .holdVeryfied_btn .btns_btm.btn_back p {
+          color: #000000; }
 
 #pop_up_go {
   display: none; }
