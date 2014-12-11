@@ -671,6 +671,140 @@
         top: 10px;
         text-align: center !important; }
 
+.choose_bg {
+  background-image: url(../assets/images/gui/perfil/bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .choose_bg .safe-all {
+    background-color: #ffffff; }
+    .choose_bg .safe-all .topPart {
+      width: 100%;
+      height: 315px;
+      padding-top: 50px;
+      position: relative; }
+      .choose_bg .safe-all .topPart .pointsCounte {
+        width: 90px;
+        height: 100px;
+        margin-top: 10px; }
+        .choose_bg .safe-all .topPart .pointsCounte p {
+          text-align: center;
+          color: #000000; }
+          .choose_bg .safe-all .topPart .pointsCounte p span {
+            font-weight: 700;
+            color: #000000; }
+        .choose_bg .safe-all .topPart .pointsCounte h1 {
+          color: #000000;
+          font-weight: 700;
+          margin-bottom: 10px; }
+
+.choose_bg .nav_var {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 85px;
+  background-color: #270e0e; }
+  .choose_bg .nav_var .safe-in {
+    width: 960px;
+    height: 100px; }
+    .choose_bg .nav_var .safe-in .profile_gating {
+      width: 310px;
+      height: 100px;
+      float: left;
+      position: relative; }
+      .choose_bg .nav_var .safe-in .profile_gating .circleimg {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+        top: -30px;
+        left: 0; }
+        .choose_bg .nav_var .safe-in .profile_gating .circleimg img {
+          width: 100%;
+          height: 100px; }
+      .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown {
+        width: 208px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        right: 0; }
+        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0; }
+          .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p {
+            top: 13px;
+            left: -10px; }
+            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p span {
+              color: #ed1c24; }
+        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .bullet {
+          width: 18px;
+          height: 18px;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          background-image: url(../assets/images/gui/perfil/assets/drop_Down_account.png); }
+        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping {
+          width: 100%;
+          height: 0px;
+          position: absolute;
+          top: 50px;
+          left: 0;
+          overflow: hidden; }
+          .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis {
+            width: 100%;
+            height: 35px;
+            position: relative;
+            background-color: #270e0e; }
+            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis p {
+              text-align: left;
+              color: #ffffff;
+              left: 10px;
+              top: 5px; }
+            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis:hover {
+              background-color: #642424; }
+    .choose_bg .nav_var .safe-in .logoOne {
+      width: 90px;
+      height: 137px;
+      top: -70px;
+      left: -70px; }
+      .choose_bg .nav_var .safe-in .logoOne img {
+        width: 100%; }
+    .choose_bg .nav_var .safe-in .conections_part {
+      width: 420px;
+      padding-top: 15px;
+      height: 22px;
+      position: relative;
+      float: right; }
+      .choose_bg .nav_var .safe-in .conections_part p {
+        float: left;
+        font-weight: 700;
+        margin-right: 20px;
+        font-size: 12px;
+        top: 5px; }
+      .choose_bg .nav_var .safe-in .conections_part .socilasConects {
+        width: 275px;
+        height: 24px;
+        position: relative;
+        float: left; }
+        .choose_bg .nav_var .safe-in .conections_part .socilasConects .iconRed {
+          width: 24px;
+          height: 24px;
+          position: relative;
+          float: left;
+          margin-right: 20px; }
+          .choose_bg .nav_var .safe-in .conections_part .socilasConects .iconRed img {
+            height: 100%; }
+        .choose_bg .nav_var .safe-in .conections_part .socilasConects p {
+          margin-right: 0; }
+
 html, body {
   margin: 0 auto;
   min-width: 980px;

@@ -66,6 +66,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_profile.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_profile.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_profile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/development\/sass\/_profile_nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_profile_nav.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_profile_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_register.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -341,6 +373,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/profile\/_perfil_nav.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/profile\/_perfil_nav.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/profile\/_perfil_nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/profile\/_profile.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/profile\/_profile.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/profile\/_profile.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/profile\/_topSect.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/profile\/_topSect.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/profile\/_topSect.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -805,6 +870,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/drop_Down_account.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1276,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/drop_Down_account.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/drop_Down_account.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/drop_down_points.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1297,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/drop_down_points.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/drop_down_points.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2483,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/email.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1423,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/fb.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/Forma-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1652,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/Forma-12.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/Forma-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/friends_so_far.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1324,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/friends_so_far.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/friends_so_far.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/phone_red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1134,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/phone_red.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/phone_red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/phone_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1124,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/phone_white.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/phone_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/RSFM-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8785,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/RSFM-Logo.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/RSFM-Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/perfil\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -812,6 +976,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22935,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/profile.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/profile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -865,15 +1040,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
