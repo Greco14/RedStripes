@@ -18,6 +18,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_btmPerfil.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_btmPerfil.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_btmPerfil.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_choose.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -373,6 +389,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/login\/_login.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/profile\/_btmSect.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/profile\/_btmSect.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/profile\/_btmSect.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -976,6 +1003,72 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/btn_challenge.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4499,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/btn_challenge.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/btn_challenge.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/btn_code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3034,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/btn_code.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/btn_code.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/chal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6892,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/chal.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/chal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/match.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8761,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/match.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/match.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/pestana.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2441,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/pestana.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/pestana.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/pestanaL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2420,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/pestanaL.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/pestanaL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
