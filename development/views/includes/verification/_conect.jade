@@ -30,8 +30,9 @@
 							a(href="http://instagram.com/redstripejamaica", target="_blank") 
 								#ig.iconoIn
 						.iconos_Follow.inconoTextss
-							.btn_newletter.btn_cursor
-						p(style="top: 5px;") Recieve updates via email
+							.btn_newletter#newsletter.btn_cursor
+							input(type="hidden", id="newsletter-input", value="no")
+						p(style="top: 5px; width: 190px") Recieve updates via email
 					.btnContinuar.centerIt-h
 						.btn_continueR.btn_cursor.btns_btm.btn-borders
 							p Continue to Rewards

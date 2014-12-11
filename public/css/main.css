@@ -282,7 +282,7 @@
 /* ******************************* Hasta abajo esta el login ******************* */
 #home_gate {
   background-color: #000000; }
-  #home_gate .new-safe {
+  #home_gate .new-safe, #home_gate .safe-all {
     width: 100%;
     height: 100%;
     min-width: 640px;
@@ -290,27 +290,30 @@
     position: absolute;
     top: 0;
     left: 0; }
-    #home_gate .new-safe .half-in {
+    #home_gate .new-safe .half-in, #home_gate .safe-all .half-in {
       width: 50%;
       float: left; }
-    #home_gate .new-safe .full-in {
+    #home_gate .new-safe .fth-section, #home_gate .safe-all .fth-section {
+      width: 25%;
+      float: left; }
+    #home_gate .new-safe .full-in, #home_gate .safe-all .full-in {
       width: 100%;
       clear: both; }
-      #home_gate .new-safe .full-in .inImg {
+      #home_gate .new-safe .full-in .inImg, #home_gate .safe-all .full-in .inImg {
         width: 97.25% !important; }
-    #home_gate .new-safe .single-in {
+    #home_gate .new-safe .single-in, #home_gate .safe-all .single-in {
       height: 25%; }
-    #home_gate .new-safe .double-in {
+    #home_gate .new-safe .double-in, #home_gate .safe-all .double-in {
       height: 50%; }
-      #home_gate .new-safe .double-in .hover p {
+      #home_gate .new-safe .double-in .hover p, #home_gate .safe-all .double-in .hover p {
         bottom: 20px !important; }
-    #home_gate .new-safe .fullD-in {
+    #home_gate .new-safe .fullD-in, #home_gate .safe-all .fullD-in {
       height: 100%; }
-      #home_gate .new-safe .fullD-in .double-in .inImg {
+      #home_gate .new-safe .fullD-in .double-in .inImg, #home_gate .safe-all .fullD-in .double-in .inImg {
         height: 97.25% !important; }
-    #home_gate .new-safe .grid-item {
+    #home_gate .new-safe .grid-item, #home_gate .safe-all .grid-item {
       position: relative; }
-      #home_gate .new-safe .grid-item .inImg {
+      #home_gate .new-safe .grid-item .inImg, #home_gate .safe-all .grid-item .inImg {
         width: 95%;
         height: 95%;
         background-position: center;
@@ -318,33 +321,33 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover; }
-        #home_gate .new-safe .grid-item .inImg#img-1 {
+        #home_gate .new-safe .grid-item .inImg#img-1, #home_gate .safe-all .grid-item .inImg#img-1 {
           background-image: url("../assets/images/gui/login/img1.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-2 {
+        #home_gate .new-safe .grid-item .inImg#img-2, #home_gate .safe-all .grid-item .inImg#img-2 {
           background-image: url("../assets/images/gui/login/img2.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-3 {
+        #home_gate .new-safe .grid-item .inImg#img-3, #home_gate .safe-all .grid-item .inImg#img-3 {
           background-image: url("../assets/images/gui/login/img3.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-4 {
+        #home_gate .new-safe .grid-item .inImg#img-4, #home_gate .safe-all .grid-item .inImg#img-4 {
           background-image: url("../assets/images/gui/login/img4.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-5 {
+        #home_gate .new-safe .grid-item .inImg#img-5, #home_gate .safe-all .grid-item .inImg#img-5 {
           background-image: url("../assets/images/gui/login/img5.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-6 {
+        #home_gate .new-safe .grid-item .inImg#img-6, #home_gate .safe-all .grid-item .inImg#img-6 {
           background-image: url("../assets/images/gui/login/img6.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-7 {
+        #home_gate .new-safe .grid-item .inImg#img-7, #home_gate .safe-all .grid-item .inImg#img-7 {
           background-image: url("../assets/images/gui/login/img7.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-8 {
+        #home_gate .new-safe .grid-item .inImg#img-8, #home_gate .safe-all .grid-item .inImg#img-8 {
           background-image: url("../assets/images/gui/login/img8.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-9 {
+        #home_gate .new-safe .grid-item .inImg#img-9, #home_gate .safe-all .grid-item .inImg#img-9 {
           background-image: url("../assets/images/gui/login/img9.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-10 {
+        #home_gate .new-safe .grid-item .inImg#img-10, #home_gate .safe-all .grid-item .inImg#img-10 {
           background-image: url("../assets/images/gui/login/img10.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-11 {
+        #home_gate .new-safe .grid-item .inImg#img-11, #home_gate .safe-all .grid-item .inImg#img-11 {
           background-image: url("../assets/images/gui/login/img11.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-12 {
+        #home_gate .new-safe .grid-item .inImg#img-12, #home_gate .safe-all .grid-item .inImg#img-12 {
           background-image: url("../assets/images/gui/login/img12.jpg"); }
-        #home_gate .new-safe .grid-item .inImg#img-13 {
+        #home_gate .new-safe .grid-item .inImg#img-13, #home_gate .safe-all .grid-item .inImg#img-13 {
           background-image: url("../assets/images/gui/login/img13.jpg"); }
-        #home_gate .new-safe .grid-item .inImg .hover {
+        #home_gate .new-safe .grid-item .inImg .hover, #home_gate .safe-all .grid-item .inImg .hover {
           width: 100%;
           height: 100%;
           position: absolute;
@@ -352,17 +355,17 @@
           left: 0;
           opacity: 0;
           background-color: rgba(255, 0, 10, 0.35); }
-          #home_gate .new-safe .grid-item .inImg .hover p {
+          #home_gate .new-safe .grid-item .inImg .hover p, #home_gate .safe-all .grid-item .inImg .hover p {
             position: absolute;
             bottom: 10px;
             left: 10px;
             line-height: 15px; }
-          #home_gate .new-safe .grid-item .inImg .hover:hover {
+          #home_gate .new-safe .grid-item .inImg .hover:hover, #home_gate .safe-all .grid-item .inImg .hover:hover {
             opacity: 1; }
-    #home_gate .new-safe .top-section, #home_gate .new-safe .btm-section {
+    #home_gate .new-safe .top-section, #home_gate .new-safe .btm-section, #home_gate .safe-all .top-section, #home_gate .safe-all .btm-section {
       width: 100%;
       position: relative; }
-    #home_gate .new-safe .top-section {
+    #home_gate .new-safe .top-section, #home_gate .safe-all .top-section {
       height: 60%;
       background-image: url("../assets/images/gui/login/bg.jpg");
       background-position: center;
@@ -370,30 +373,30 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover; }
-      #home_gate .new-safe .top-section .low-ones {
+      #home_gate .new-safe .top-section .low-ones, #home_gate .safe-all .top-section .low-ones {
         width: 100%;
         height: 120px;
         position: absolute;
         bottom: 10%;
         left: 0%; }
-      #home_gate .new-safe .top-section h2 {
+      #home_gate .new-safe .top-section h2, #home_gate .safe-all .top-section h2 {
         color: #ffffff;
         margin-bottom: 30px; }
-        #home_gate .new-safe .top-section h2 span {
+        #home_gate .new-safe .top-section h2 span, #home_gate .safe-all .top-section h2 span {
           font-style: italic; }
-      #home_gate .new-safe .top-section .bts_d {
+      #home_gate .new-safe .top-section .bts_d, #home_gate .safe-all .top-section .bts_d {
         height: 40px; }
-        #home_gate .new-safe .top-section .bts_d p {
+        #home_gate .new-safe .top-section .bts_d p, #home_gate .safe-all .top-section .bts_d p {
           top: 10px; }
-      #home_gate .new-safe .top-section .btn_register {
+      #home_gate .new-safe .top-section .btn_register, #home_gate .safe-all .top-section .btn_register {
         width: 135px;
         float: right;
         margin-right: 10px; }
-      #home_gate .new-safe .top-section .btn_login {
+      #home_gate .new-safe .top-section .btn_login, #home_gate .safe-all .top-section .btn_login {
         width: 100px;
         float: left;
         margin-left: 15%; }
-    #home_gate .new-safe .btm-section {
+    #home_gate .new-safe .btm-section, #home_gate .safe-all .btm-section {
       height: 40%; }
 
 .red_btns {
@@ -506,7 +509,7 @@
       left: 7px; }
 
 .choose_bg {
-  background-image: url(../assets/images/gui/choose/bg.png);
+  background-image: url(../assets/images/gui/register/bg.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -652,8 +655,9 @@
         height: 28px;
         background-image: url("../assets/images/gui/choose/nws.png");
         background-position: center;
-        background-repeat: no-repeat; }
-        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .btn_newletter.activeON {
+        background-repeat: no-repeat;
+        z-index: 1; }
+        .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow .btn_newletter:hover {
           background-color: #ed1c24; }
       .holdbottoms_cols .thisIsthe .holdsocials .iconos_Follow.inconoTextss {
         float: left; }
@@ -671,37 +675,37 @@
         top: 10px;
         text-align: center !important; }
 
-.choose_bg {
+.perfil_bg {
   background-image: url(../assets/images/gui/perfil/bg.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  .choose_bg .safe-all {
+  .perfil_bg .safe-all {
     background-color: #ffffff; }
-    .choose_bg .safe-all .topPart {
+    .perfil_bg .safe-all .topPart {
       width: 100%;
       height: 315px;
       padding-top: 50px;
       position: relative; }
-      .choose_bg .safe-all .topPart .pointsCounte {
+      .perfil_bg .safe-all .topPart .pointsCounte {
         width: 90px;
         height: 100px;
         margin-bottom: 10px; }
-        .choose_bg .safe-all .topPart .pointsCounte p {
+        .perfil_bg .safe-all .topPart .pointsCounte p {
           text-align: center;
           color: #000000; }
-          .choose_bg .safe-all .topPart .pointsCounte p span {
+          .perfil_bg .safe-all .topPart .pointsCounte p span {
             font-weight: 700;
             color: #000000;
             font-style: italic;
             left: -10px;
             position: relative; }
-        .choose_bg .safe-all .topPart .pointsCounte h1 {
+        .perfil_bg .safe-all .topPart .pointsCounte h1 {
           color: #ed1c24;
           font-weight: 700;
           margin-bottom: 0px; }
-        .choose_bg .safe-all .topPart .pointsCounte .btnShow {
+        .perfil_bg .safe-all .topPart .pointsCounte .btnShow {
           width: 18px;
           height: 18px;
           background-position: center;
@@ -710,90 +714,92 @@
           position: absolute;
           bottom: 16px;
           right: 0; }
-      .choose_bg .safe-all .topPart .copyPart {
+      .perfil_bg .safe-all .topPart .copyPart {
         width: 500px;
         height: 100px; }
-        .choose_bg .safe-all .topPart .copyPart .ttp {
+        .perfil_bg .safe-all .topPart .copyPart .ttp {
           margin-bottom: 10px; }
-          .choose_bg .safe-all .topPart .copyPart .ttp p {
+          .perfil_bg .safe-all .topPart .copyPart .ttp p {
             text-align: center;
             color: #000000; }
-            .choose_bg .safe-all .topPart .copyPart .ttp p span {
+            .perfil_bg .safe-all .topPart .copyPart .ttp p span {
               color: #000000; }
-        .choose_bg .safe-all .topPart .copyPart .lbp {
+        .perfil_bg .safe-all .topPart .copyPart .lbp {
           width: 420px;
           height: 33px;
           margin-bottom: 15px; }
-        .choose_bg .safe-all .topPart .copyPart .floLsection {
+        .perfil_bg .safe-all .topPart .copyPart .floLsection {
           float: left;
           height: 33px;
           position: relative; }
-          .choose_bg .safe-all .topPart .copyPart .floLsection p {
+          .perfil_bg .safe-all .topPart .copyPart .floLsection p {
             top: 7px;
             color: #000000; }
-            .choose_bg .safe-all .topPart .copyPart .floLsection p span {
+            .perfil_bg .safe-all .topPart .copyPart .floLsection p span {
               font-weight: 700;
               font-size: 20px;
               position: relative;
               color: #000000;
               top: 0px; }
-          .choose_bg .safe-all .topPart .copyPart .floLsection.inputhOLS {
+          .perfil_bg .safe-all .topPart .copyPart .floLsection.inputhOLS {
             width: 100px;
             height: 30px;
             border: 1px solid #000000;
             margin-left: 10px;
             margin-right: 10px; }
-      .choose_bg .safe-all .topPart .shareSect {
+            .perfil_bg .safe-all .topPart .copyPart .floLsection.inputhOLS p {
+              text-align: center !important; }
+      .perfil_bg .safe-all .topPart .shareSect {
         width: 360px;
         height: 55px;
         margin-bottom: 10px; }
-        .choose_bg .safe-all .topPart .shareSect .holdTX {
+        .perfil_bg .safe-all .topPart .shareSect .holdTX {
           float: left;
           width: 74px;
           padding-top: 10px;
           height: 20px; }
-          .choose_bg .safe-all .topPart .shareSect .holdTX p {
+          .perfil_bg .safe-all .topPart .shareSect .holdTX p {
             color: #000000;
             top: 10px; }
-        .choose_bg .safe-all .topPart .shareSect .boxSocial {
+        .perfil_bg .safe-all .topPart .shareSect .boxSocial {
           width: 277px;
           height: 50px;
           border: 1px solid #bebebe;
           position: relative;
           float: left; }
-          .choose_bg .safe-all .topPart .shareSect .boxSocial .linkBtn {
+          .perfil_bg .safe-all .topPart .shareSect .boxSocial .linkBtn {
             position: absolute;
             top: 5px;
             background-repeat: no-repeat;
             background-position: center;
             width: 32px;
             height: 32px; }
-            .choose_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.fb_linkShare {
+            .perfil_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.fb_linkShare {
               background-image: url(../assets/images/gui/perfil/assets/fb.png);
               left: 25px; }
-            .choose_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.tt_linkShare {
+            .perfil_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.tt_linkShare {
               background-image: url(../assets/images/gui/perfil/assets/Forma-12.png);
               left: 103px; }
-            .choose_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.email_linkShare {
+            .perfil_bg .safe-all .topPart .shareSect .boxSocial .linkBtn.email_linkShare {
               width: 82px;
               left: 178px;
               background-image: url(../assets/images/gui/perfil/assets/email.png); }
-      .choose_bg .safe-all .topPart .lastCopy {
+      .perfil_bg .safe-all .topPart .lastCopy {
         width: 100%;
         height: 20px;
         position: relative; }
-        .choose_bg .safe-all .topPart .lastCopy p {
+        .perfil_bg .safe-all .topPart .lastCopy p {
           text-align: center;
           top: 5px;
           color: #000000; }
-          .choose_bg .safe-all .topPart .lastCopy p span {
+          .perfil_bg .safe-all .topPart .lastCopy p span {
             font-weight: 700;
             font-size: 20px;
             position: relative;
             color: #000000;
             top: 3px; }
 
-.choose_bg .safe-all .btmpart {
+.perfil_bg .safe-all .btmpart {
   width: 100%;
   height: 320px;
   position: relative;
@@ -801,71 +807,71 @@
   background-image: url(../assets/images/gui/perfil/pestana.png);
   background-repeat-y: no-repeat;
   background-position: center top; }
-  .choose_bg .safe-all .btmpart .holdRefers {
+  .perfil_bg .safe-all .btmpart .holdRefers {
     width: 170px;
     height: 50px;
     margin-bottom: 20px; }
-    .choose_bg .safe-all .btmpart .holdRefers .friensSo {
+    .perfil_bg .safe-all .btmpart .holdRefers .friensSo {
       width: 100%;
       height: 25px; }
-      .choose_bg .safe-all .btmpart .holdRefers .friensSo p {
+      .perfil_bg .safe-all .btmpart .holdRefers .friensSo p {
         text-align: center;
         color: #bebebe; }
-    .choose_bg .safe-all .btmpart .holdRefers .holdLOw {
+    .perfil_bg .safe-all .btmpart .holdRefers .holdLOw {
       width: 50px;
       height: 25px; }
-      .choose_bg .safe-all .btmpart .holdRefers .holdLOw .lftm {
+      .perfil_bg .safe-all .btmpart .holdRefers .holdLOw .lftm {
         width: 50%;
         float: left;
         height: 100%; }
-      .choose_bg .safe-all .btmpart .holdRefers .holdLOw .counter_Friends p {
+      .perfil_bg .safe-all .btmpart .holdRefers .holdLOw .counter_Friends p {
         color: #ed1c24;
         text-align: right; }
-      .choose_bg .safe-all .btmpart .holdRefers .holdLOw .iconoMn {
+      .perfil_bg .safe-all .btmpart .holdRefers .holdLOw .iconoMn {
         width: 21px;
         height: 21px;
         background-image: url(../assets/images/gui/perfil/assets/friends_so_far.png);
         background-repeat: no-repeat;
         background-position: center; }
-  .choose_bg .safe-all .btmpart .getMore {
+  .perfil_bg .safe-all .btmpart .getMore {
     width: 295px;
     height: 35px;
     border-bottom: 2px solid #ede0a7;
     margin-bottom: 20px; }
-    .choose_bg .safe-all .btmpart .getMore h2 {
+    .perfil_bg .safe-all .btmpart .getMore h2 {
       text-align: center;
       color: #270e0e; }
-  .choose_bg .safe-all .btmpart .holdBtnsPromos {
+  .perfil_bg .safe-all .btmpart .holdBtnsPromos {
     width: 710px;
     height: 140px; }
-    .choose_bg .safe-all .btmpart .holdBtnsPromos .btnsGo {
+    .perfil_bg .safe-all .btmpart .holdBtnsPromos .btnsGo {
       width: 100%;
       height: 52px;
       position: relative;
       margin-bottom: 20px;
       background-repeat: no-repeat; }
-      .choose_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_chll {
+      .perfil_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_chll {
         background-image: url(../assets/images/gui/perfil/btn_challenge.png);
         background-position: left center; }
-      .choose_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_mth {
+      .perfil_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_mth {
         width: 412px;
         background-image: url(../assets/images/gui/perfil/match.png);
         background-position: right center;
         position: absolute;
         top: 0;
         right: -3px; }
-      .choose_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_code {
+      .perfil_bg .safe-all .btmpart .holdBtnsPromos .btnsGo.btn_code {
         background-image: url(../assets/images/gui/perfil/btn_code.png);
         background-position: right center;
         position: absolute;
         bottom: 0;
         right: 0; }
-    .choose_bg .safe-all .btmpart .holdBtnsPromos .redXms {
+    .perfil_bg .safe-all .btmpart .holdBtnsPromos .redXms {
       width: 298px;
       height: 66px;
       background-image: url(../assets/images/gui/perfil/chal.png);
       background-position: left center; }
-  .choose_bg .safe-all .btmpart .btmTab.btn_cursor {
+  .perfil_bg .safe-all .btmpart .btmTab.btn_cursor {
     height: 60px;
     width: 100%;
     position: absolute;
@@ -874,26 +880,26 @@
     background-image: url(../assets/images/gui/perfil/pestanaL.png);
     background-repeat-y: no-repeat;
     background-position: center top; }
-    .choose_bg .safe-all .btmpart .btmTab.btn_cursor h1 {
+    .perfil_bg .safe-all .btmpart .btmTab.btn_cursor h1 {
       color: #ffffff;
       text-align: center; }
 
-.choose_bg .nav_var {
+.perfil_bg .nav_var {
   width: 100%;
   height: 50px;
   position: absolute;
   left: 0;
   top: 85px;
   background-color: #270e0e; }
-  .choose_bg .nav_var .safe-in {
+  .perfil_bg .nav_var .safe-in {
     width: 960px;
     height: 100px; }
-    .choose_bg .nav_var .safe-in .profile_gating {
+    .perfil_bg .nav_var .safe-in .profile_gating {
       width: 310px;
       height: 100px;
       float: left;
       position: relative; }
-      .choose_bg .nav_var .safe-in .profile_gating .circleimg {
+      .perfil_bg .nav_var .safe-in .profile_gating .circleimg {
         width: 98px;
         height: 98px;
         position: absolute;
@@ -903,86 +909,344 @@
         overflow: hidden;
         top: -30px;
         left: 0; }
-        .choose_bg .nav_var .safe-in .profile_gating .circleimg img {
+        .perfil_bg .nav_var .safe-in .profile_gating .circleimg img {
           width: 100%;
           height: 100px; }
-      .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown {
+      .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown {
         width: 208px;
         height: 100px;
         position: absolute;
         top: 0;
         right: 0; }
-        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt {
+        .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt {
           width: 100%;
           height: 100%;
           position: absolute;
           top: 0;
           left: 0; }
-          .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p {
+          .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p {
             top: 13px;
-            left: -10px; }
-            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p span {
+            left: 10px; }
+            .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .welcomTxt p span {
               color: #ed1c24; }
-        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .bullet {
+        .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .bullet {
           width: 18px;
           height: 18px;
           position: absolute;
           top: 15px;
           right: 15px;
           background-image: url(../assets/images/gui/perfil/assets/drop_Down_account.png); }
-        .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping {
+        .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping {
           width: 100%;
           height: 0px;
           position: absolute;
           top: 50px;
           left: 0;
           overflow: hidden; }
-          .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis {
+          .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis {
             width: 100%;
             height: 35px;
             position: relative;
             background-color: #270e0e; }
-            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis p {
+            .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis p {
               text-align: left;
               color: #ffffff;
               left: 10px;
               top: 5px; }
-            .choose_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis:hover {
+            .perfil_bg .nav_var .safe-in .profile_gating .holder_dropdown .droping .selctionThis:hover {
               background-color: #642424; }
-    .choose_bg .nav_var .safe-in .logoOne {
+    .perfil_bg .nav_var .safe-in .logoOne {
       width: 90px;
       height: 137px;
       top: -70px;
       left: -70px; }
-      .choose_bg .nav_var .safe-in .logoOne img {
+      .perfil_bg .nav_var .safe-in .logoOne img {
         width: 100%; }
-    .choose_bg .nav_var .safe-in .conections_part {
+    .perfil_bg .nav_var .safe-in .conections_part {
       width: 420px;
       padding-top: 15px;
       height: 22px;
       position: relative;
       float: right; }
-      .choose_bg .nav_var .safe-in .conections_part p {
+      .perfil_bg .nav_var .safe-in .conections_part p {
         float: left;
         font-weight: 700;
         margin-right: 20px;
         font-size: 12px;
         top: 5px; }
-      .choose_bg .nav_var .safe-in .conections_part .socilasConects {
+      .perfil_bg .nav_var .safe-in .conections_part .socilasConects {
         width: 275px;
         height: 24px;
         position: relative;
         float: left; }
-        .choose_bg .nav_var .safe-in .conections_part .socilasConects .iconRed {
+        .perfil_bg .nav_var .safe-in .conections_part .socilasConects .iconRed {
           width: 24px;
           height: 24px;
           position: relative;
           float: left;
           margin-right: 20px; }
-          .choose_bg .nav_var .safe-in .conections_part .socilasConects .iconRed img {
+          .perfil_bg .nav_var .safe-in .conections_part .socilasConects .iconRed img {
             height: 100%; }
-        .choose_bg .nav_var .safe-in .conections_part .socilasConects p {
+        .perfil_bg .nav_var .safe-in .conections_part .socilasConects p {
           margin-right: 0; }
+
+#prizes_gate .safe-all {
+  height: 100%;
+  margin-top: 0;
+  position: relative;
+  background-color: #270e0e; }
+  #prizes_gate .safe-all .ingGrid {
+    width: 890px;
+    height: 95%;
+    padding-top: 2.5%; }
+    #prizes_gate .safe-all .ingGrid .este-in {
+      height: 215px; }
+    #prizes_gate .safe-all .ingGrid .half-in {
+      width: 50%;
+      float: left; }
+    #prizes_gate .safe-all .ingGrid .fth-section {
+      width: 25%;
+      float: left; }
+    #prizes_gate .safe-all .ingGrid .full-in {
+      width: 100%;
+      clear: both; }
+      #prizes_gate .safe-all .ingGrid .full-in .inImg {
+        width: 97.25% !important; }
+    #prizes_gate .safe-all .ingGrid .single-in {
+      height: 25%; }
+    #prizes_gate .safe-all .ingGrid .double-in {
+      height: 50%; }
+      #prizes_gate .safe-all .ingGrid .double-in .hover p {
+        bottom: 20px !important; }
+    #prizes_gate .safe-all .ingGrid .fullD-in {
+      height: 100%; }
+      #prizes_gate .safe-all .ingGrid .fullD-in .double-in .inImg {
+        height: 97.25% !important; }
+    #prizes_gate .safe-all .ingGrid .grid-item {
+      position: relative; }
+      #prizes_gate .safe-all .ingGrid .grid-item p {
+        text-align: left !important; }
+      #prizes_gate .safe-all .ingGrid .grid-item .inImg {
+        width: 95%;
+        height: 95%;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-1 {
+          background-image: url(../assets/images/gui/prizes/1.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-2 {
+          background-image: url(../assets/images/gui/prizes/2.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-3 {
+          background-image: url(../assets/images/gui/prizes/3.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-4 {
+          background-image: url(../assets/images/gui/prizes/4.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-5 {
+          background-image: url(../assets/images/gui/prizes/5.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-6 {
+          background-image: url(../assets/images/gui/prizes/6.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-7 {
+          background-image: url(../assets/images/gui/prizes/7.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-8 {
+          background-image: url(../assets/images/gui/prizes/8.png); }
+        #prizes_gate .safe-all .ingGrid .grid-item .inImg .hover {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          background-color: rgba(255, 0, 10, 0.35); }
+          #prizes_gate .safe-all .ingGrid .grid-item .inImg .hover p {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            line-height: 15px; }
+          #prizes_gate .safe-all .ingGrid .grid-item .inImg .hover:hover {
+            opacity: 1; }
+
+.popUpHolder {
+  width: 780px;
+  height: 410px;
+  top: 50px;
+  background-color: #642424; }
+  .popUpHolder .holdwithGrid .safe-area {
+    width: 725px;
+    height: 360px; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .points_to {
+      width: 160px;
+      height: 30px;
+      margin-bottom: 30px;
+      position: relative; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .points_to p {
+        font-size: 20px;
+        font-weight: 700; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .points_to .icono_point {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 10px;
+        right: 0px; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .boxName {
+      width: 250px;
+      height: 40px;
+      position: relative;
+      margin-bottom: 30px;
+      background-color: #ffffff; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .boxName p {
+        color: #000000;
+        top: 10px;
+        text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .imgPrice {
+      width: 217px;
+      height: 217px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      overflow: hidden; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .imgPrice img {
+        width: 100%; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .topONe {
+      width: 100%;
+      margin-bottom: 15px; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .topONe p {
+        font-size: 17px;
+        line-height: 20px;
+        color: #ffffff;
+        text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .holdSelect {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      margin-bottom: 20px; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes {
+      width: 100%;
+      height: 90px;
+      margin-bottom: 10px; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes .points_to {
+        width: 100%;
+        height: 24px;
+        margin-bottom: 20px; }
+        .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes .points_to p {
+          text-align: center !important; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes .btnshoLD {
+        width: 100%;
+        height: 40px; }
+        .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes .btnshoLD .btnsRedim {
+          width: 146px;
+          height: 40px;
+          background-color: #ffffff;
+          margin: 0 auto; }
+          .popUpHolder .holdwithGrid .safe-area .section-half .holdCodes .btnshoLD .btnsRedim p {
+            top: 10px;
+            color: #000000;
+            text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .holdTextredimer {
+      width: 100%;
+      height: 20px;
+      color: #ffffff;
+      margin-bottom: 20px; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .holdTextredimer p {
+        text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect {
+      width: 190px;
+      height: 20px;
+      margin-bottom: 30px; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect .txtConc, .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect .iconoPhone {
+        float: left; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect .iconoPhone {
+        width: 13px;
+        height: 21px;
+        margin-right: 5px;
+        background-image: url("../assets/images/gui/perfil/assets/phone_red.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect .txtConc {
+        width: 150px; }
+        .popUpHolder .holdwithGrid .safe-area .section-half .phoneConcect .txtConc p {
+          top: 3px; }
+    .popUpHolder .holdwithGrid .safe-area .section-half .lastB {
+      width: 125px;
+      height: 40px;
+      position: relative; }
+      .popUpHolder .holdwithGrid .safe-area .section-half .lastB .prizes_back {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        background-image: url("../assets/images/gui/prizes/back.png");
+        background-repeat: no-repeat;
+        background-position: 5px center; }
+        .popUpHolder .holdwithGrid .safe-area .section-half .lastB .prizes_back p {
+          color: #000000;
+          top: 9px;
+          left: 2px;
+          text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area #sms_info_gate .topONe, .popUpHolder .holdwithGrid .safe-area #email_info_gate .topONe {
+      width: 220px !important;
+      margin-bottom: 30px !important; }
+    .popUpHolder .holdwithGrid .safe-area #sms_info_gate .inputSend, .popUpHolder .holdwithGrid .safe-area #email_info_gate .inputSend {
+      width: 160px;
+      height: 40px;
+      margin-bottom: 40px; }
+      .popUpHolder .holdwithGrid .safe-area #sms_info_gate .inputSend input, .popUpHolder .holdwithGrid .safe-area #email_info_gate .inputSend input {
+        text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area #sms_info_gate .holdsend, .popUpHolder .holdwithGrid .safe-area #email_info_gate .holdsend {
+      width: 148px;
+      height: 40px;
+      margin-bottom: 70px; }
+      .popUpHolder .holdwithGrid .safe-area #sms_info_gate .holdsend .btsumit, .popUpHolder .holdwithGrid .safe-area #email_info_gate .holdsend .btsumit {
+        width: 148px;
+        height: 40px;
+        position: relative;
+        float: left;
+        background-color: #ed1c24;
+        background-image: url("../assets/images/gui/age/submit.png");
+        background-position: 20px 11px;
+        background-repeat: no-repeat; }
+        .popUpHolder .holdwithGrid .safe-area #sms_info_gate .holdsend .btsumit p, .popUpHolder .holdwithGrid .safe-area #email_info_gate .holdsend .btsumit p {
+          position: relative;
+          font-weight: 700;
+          top: 11px;
+          left: 15px;
+          text-align: center !important; }
+    .popUpHolder .holdwithGrid .safe-area .closepopUp {
+      width: 13px;
+      height: 13px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-image: url("../assets/images/gui/prizes/x.png"); }
+  .popUpHolder .lasTcheers {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .popUpHolder .lasTcheers p {
+      text-align: center !important; }
+    .popUpHolder .lasTcheers .top_msg {
+      margin-bottom: 50px; }
+    .popUpHolder .lasTcheers .msgTrans {
+      margin-bottom: 70px; }
+    .popUpHolder .lasTcheers .lastB {
+      width: 125px;
+      height: 40px;
+      position: relative; }
+      .popUpHolder .lasTcheers .lastB .prizes_back {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        background-image: url("../assets/images/gui/prizes/back.png");
+        background-repeat: no-repeat;
+        background-position: 10px center; }
+        .popUpHolder .lasTcheers .lastB .prizes_back p {
+          color: #000000;
+          top: 9px;
+          left: 2px;
+          text-align: center !important; }
+  .popUpHolder #sms_info_gate, .popUpHolder #email_info_gate, .popUpHolder #cheers_salute {
+    display: none; }
 
 html, body {
   margin: 0 auto;

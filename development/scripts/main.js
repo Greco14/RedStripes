@@ -44,6 +44,8 @@ Main = {
   init: function(){
     dropdowns = new Dropdowns();
     dropdowns.init();
+    openShows = new OpenShows();
+    openShows.init();
   },
 };
 $(function(){
