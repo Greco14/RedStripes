@@ -997,7 +997,7 @@
   background-color: #270e0e; }
   #prizes_gate .safe-all .ingGrid {
     width: 890px;
-    height: 95%;
+    height: 450px;
     padding-top: 2.5%; }
     #prizes_gate .safe-all .ingGrid .este-in {
       height: 215px; }
@@ -1033,7 +1033,8 @@
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover; }
+        background-size: cover;
+        overflow: hidden; }
         #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-1 {
           background-image: url(../assets/images/gui/prizes/1.png); }
         #prizes_gate .safe-all .ingGrid .grid-item .inImg#prize-2 {
@@ -1065,6 +1066,21 @@
             line-height: 15px; }
           #prizes_gate .safe-all .ingGrid .grid-item .inImg .hover:hover {
             opacity: 1; }
+  #prizes_gate .safe-all .holdCopyes {
+    width: 450px;
+    height: 20px;
+    padding-top: 40px; }
+    #prizes_gate .safe-all .holdCopyes p {
+      text-align: center !important;
+      font-size: 20px;
+      color: #ffffff; }
+      #prizes_gate .safe-all .holdCopyes p span {
+        color: #ffffff;
+        font-weight: 700;
+        font-style: italic; }
+
+#pop_up_go {
+  display: none; }
 
 .popUpHolder {
   width: 780px;
@@ -1074,6 +1090,9 @@
   .popUpHolder .holdwithGrid .safe-area {
     width: 725px;
     height: 360px; }
+    .popUpHolder .holdwithGrid .safe-area #info_full_prize {
+      width: 100%;
+      height: 100%; }
     .popUpHolder .holdwithGrid .safe-area .section-half .points_to {
       width: 160px;
       height: 30px;
@@ -1214,8 +1233,8 @@
       width: 13px;
       height: 13px;
       position: absolute;
-      top: 0;
-      right: 0;
+      top: -15px;
+      right: -15px;
       background-image: url("../assets/images/gui/prizes/x.png"); }
   .popUpHolder .lasTcheers {
     width: 100%;

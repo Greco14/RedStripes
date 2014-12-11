@@ -1,11 +1,15 @@
 OpenShows = function(){
-	this.settings={
+	this.settings = {
 		btn_login_chage_option: $('.btn_login_chage_option'),
 		inputlog: $('.inputlog'),
 		newsletter_input: $('#newsletter-input'),
 		btn_newsLeter: $('#newsletter'),
 		info_priza: $('#info_prize'),
 		btn_confi_prizes : $('.sendConfi_prize'),
+		btn_prize: $('.prize-grid-item'),
+		close_elPopUP: $('.close_elPopUP'),
+		bnt_sumit: $('.btsumit'),
+
 	};
 };
 OpenShows.prototype.init= function(){
@@ -47,6 +51,21 @@ OpenShows.prototype.bind= function(){
 		var elId = $(this).attr('id');
 		s.info_priza.css({display:'none'});
 		$('#'+elId+'_gate').css({display:'block'});
+	});
+	s.btn_prize.on('click', function(){
+		$('#pop_up_go').css('display','block');
+	});
+	s.close_elPopUP.on('click', function(){
+		$('#pop_up_go').css('display','none');
+		$('#sms_info_gate').css('display','none');
+		$('#email_info_gate').css('display','none');
+		$('#cheers_salute').css('display', 'none');
+		$('#info_full_prize').css({display: 'block'});
+		s.info_priza.css({display:'block'});
+	});
+	s.bnt_sumit.on('click', function(){
+		$('#cheers_salute').css('display', 'block');
+		$('#info_full_prize').css({display: 'none'});
 	});
 };
 OpenShows.prototype.actions= function(wich, all){
