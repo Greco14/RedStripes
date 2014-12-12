@@ -551,7 +551,7 @@
               <p>You have</p>
               <h1 id="points_counter">100</h1>
               <p><span>STRIPES</span></p>
-              <div class="btnShow btn_cursor"></div>
+              <div id="puntosPerfil" class="btnShow btn_cursor open_popUp"></div>
             </div>
             <div class="copyPart centerIt-h">
               <div class="ttp">
@@ -603,12 +603,12 @@
             </div>
             <div class="holdBtnsPromos centerIt-h">
               <div class="section-half">
-                <div class="btnsGo btn_cursor btn_chll"></div>
+                <div id="dailyChallenge" class="btnsGo btn_cursor btn_chll open_popUp"></div>
                 <div class="redXms"></div>
               </div>
               <div class="section-half">
-                <div class="btnsGo btn_cursor btn_mth"></div>
-                <div class="btnsGo btn_cursor btn_code"></div>
+                <div id="footballChallenge" class="btnsGo btn_cursor btn_mth open_popUp"></div>
+                <div id="codesChallenge" class="btnsGo btn_cursor btn_code open_popUp"></div>
               </div>
             </div>
             <div id="prizesShow" class="btmTab btn_cursor">
@@ -649,197 +649,77 @@
           </div>
         </div>
       </div>
-      <div id="prizes_gate" class="imgbG perfil_bg">
-        <div class="safe-all">
-          <div class="holdwithGrid">
-            <div class="ingGrid centerIt-h">
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-1" class="btn-borders inImg center-all">
-                  <div id="prize-1-in" class="imgbox"></div>
-                  <div id="prize-1-in-hover" class="hover btn_cursor">
-                    <p>Major<br> Lazer<br>Tickets</p>
-                  </div>
-                </div>
+      <div id="popUp_gate" class="imgbG lightbox">
+        <div class="holdwithGrid">
+          <div id="sendBymail_popUp_gate" class="conteinerPopuP center-all btn-borders">
+            <div class="safeArea center-all">
+              <div id="sendBymail_popUp" class="closePop_codes btn_cursor"></div>
+              <div class="top_img centerIt-h"><img src="assets/images/gui/age/logo.png"></div>
+              <div class="copyHello centerIt-h">
+                <p class="hi"><span>HI!<span></p>
+                <p>Join me on Red Stripe® Rewards<br> & get STRIPES to redeem BIG Prizes!</p>
+                <p>Click this link to join NOW!</p>
               </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-2" class="btn-borders inImg center-all">
-                  <div id="prize-2-in" class="imgbox"></div>
-                  <div id="prize-2-in-hover" class="hover btn_cursor">
-                    <p>Red<br> Stripe<br>Caps</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-3" class="btn-borders inImg center-all">
-                  <div id="prize-3-in" class="imgbox"></div>
-                  <div id="prize-3-in-hover" class="hover btn_cursor">
-                    <p>Red<br> Stripe<br>Sirroel</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-4" class="btn-borders inImg center-all">
-                  <div id="prize-4-in" class="imgbox"></div>
-                  <div id="prize-4-in-hover" class="hover btn_cursor">
-                    <p>Absinthe<br> Party<br>Tickets</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-5" class="btn-borders inImg center-all">
-                  <div id="prize-5-in" class="imgbox"></div>
-                  <div id="prize-5-in-hover" class="hover btn_cursor">
-                    <p>Apple<br> iPhone 6</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-6" class="btn-borders inImg center-all">
-                  <div id="prize-6-in" class="imgbox"></div>
-                  <div id="prize-6-in-hover" class="hover btn_cursor">
-                    <p>Red<br> Stripe<br>1 Litre</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-7" class="btn-borders inImg center-all">
-                  <div id="prize-7-in" class="imgbox"></div>
-                  <div id="prize-7-in-hover" class="hover btn_cursor">
-                    <p>Live<br> From<br>Kignston<br>Tickets</p>
-                  </div>
-                </div>
-              </div>
-              <div class="fth-section este-in grid-item prize-grid-item">
-                <div id="prize-8" class="btn-borders inImg center-all">
-                  <div id="prize-8-in" class="imgbox"></div>
-                  <div id="prize-8-in-hover" class="hover btn_cursor">
-                    <p>Red Stripe<br> Football<br>Monday</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="holdCopyes centerIt-h">
-              <div class="section-half">
-                <p>COLLECT <span>STRIPES</span></p>
-              </div>
-              <div class="section-half">
-                <p>Get Rewarded!</p>
-              </div>
-              <div class="holdVeryfied_btn">
-                <div class="btn_back smsV btn_cursor btns_btm btn-borders red_btns">
-                  <p>Go Back</p>
+              <div class="linkShare centerIt-h"><a href="http://bit.ly/rddfhdhfu"> 
+                  <p>bit.ly/rddfhdhfu</p></a></div>
+              <div class="holdBtns centerIt-h"><a href="mailto:xx@xxxx.com?subject=Join me on Red Stripe® Rewards&amp;body= Get STRIPES to redeem BIG Prizes! http://bit.ly/rddfhdhfu" class="btsumit btn_cursor btn-borders">
+                  <p>Send e-mail</p></a>
+                <div class="btcopy btn_cursor btn-borders">
+                  <p>Copy to Clipboard</p>
                 </div>
               </div>
             </div>
           </div>
-          <div id="pop_up_go" class="popUpHolder btn-borders center-horizontal">
-            <div class="holdwithGrid">
-              <div class="safe-area center-all">
-                <div id="info_full_prize">
-                  <div class="section-half">
-                    <div class="points_to">
-                      <p>STRIPES 350</p>
-                      <div class="icono_point"></div>
-                    </div>
-                    <div class="boxName btn-borders">
-                      <p>Major Lazer Tickets</p>
-                    </div>
-                    <div class="imgPrice btn-borders"><img src="assets/images/gui/prizes/1.png"></div>
-                  </div>
-                  <div id="info_prize" class="section-half">
-                    <div class="topONe">
-                      <p>A redemption code will be sent to you; use this code to redeem prize at this redemption centre:</p>
-                    </div>
-                    <div class="holdSelect">
-                      <select>
-                        <option value="Redemption Centers" selected>Redemption Center</option>
-                        <option value="Kingston, Jamaica">Kingston, Jamaica</option>
-                      </select>
-                    </div>
-                    <div class="holdCodes">
-                      <div class="points_to">
-                        <p>SEND CODE VIA.</p>
-                      </div>
-                      <div class="btnshoLD">
-                        <div class="section-half">
-                          <div id="sms_info" class="btnsRedim btn_cursor btn-borders sendConfi_prize">
-                            <p>Send SMS</p>
-                          </div>
-                        </div>
-                        <div class="section-half">
-                          <div id="email_info" class="btnsRedim btn_cursor btn-borders sendConfi_prize">
-                            <p>Send Email</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="holdTextredimer">
-                      <p>Or text ‘REDEEM MLTIX350’ to 444-7744</p>
-                    </div>
-                    <div class="phoneConcect centerIt-h">
-                      <div class="iconoPhone"></div>
-                      <div class="txtConc">
-                        <p>(Connect Cell Phone)</p>
-                      </div>
-                    </div>
-                    <div class="lastB centerIt-h">
-                      <div class="btnsRedim btn_cursor btn-borders prizes_back close_elPopUP">
-                        <p>Back to Prizes</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="sms_info_gate" class="section-half">
-                    <div class="topONe centerIt-h">
-                      <p>A redemption code was sent to +1(876)xxxxxxx</p>
-                    </div>
-                    <div class="inputSend centerIt-h">
-                      <input type="text" name="code" id="code_prizing_sms" placeholder="Enter Code">
-                    </div>
-                    <div class="holdsend centerIt-h">
-                      <div class="btsumit btn_cursor btn-borders">
-                        <p>Submit</p>
-                      </div>
-                    </div>
-                    <div class="lastB centerIt-h">
-                      <div class="btnsRedim btn_cursor btn-borders prizes_back close_elPopUP">
-                        <p>Back to Prizes</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="email_info_gate" class="section-half">
-                    <div class="topONe centerIt-h">
-                      <p>A redemption code was sent to xxx@xxxx.com</p>
-                    </div>
-                    <div class="inputSend centerIt-h">
-                      <input type="text" name="code" id="code_prizing_sms" placeholder="Enter Code">
-                    </div>
-                    <div class="holdsend centerIt-h">
-                      <div class="btsumit btn_cursor btn-borders">
-                        <p>Submit</p>
-                      </div>
-                    </div>
-                    <div class="lastB centerIt-h">
-                      <div class="btnsRedim btn_cursor btn-borders prizes_back close_elPopUP">
-                        <p>Back to Prizes</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="cheers_salute" class="lasTcheers">
-                  <div class="top_msg">
-                    <p>CHEERS!</p>
-                  </div>
-                  <div class="msgTrans">
-                    <p>You have redeemed a Major Lazer<br> ticket for 350 STRIPES! <br> You can pick up this prize at Prism Communications Ltd. <br> Transaction # 1234567890</p>
-                  </div>
-                  <div class="lastB centerIt-h">
-                    <div class="btnsRedim btn_cursor btn-borders prizes_back close_elPopUP">
-                      <p>Done</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="closepopUp btn_cursor close_elPopUP"></div>
+          <div id="dailyChallenge_popUp_gate" class="conteinerPopuP center-all btn-borders">
+            <div class="safeArea center-all">
+              <div id="dailyChallenge_popUp" class="closePop_codes btn_cursor"></div>
+              <div class="top_img centerIt-h"><img src="assets/images/gui/age/logo.png"></div>
+              <div class="topCh">
+                <h2>Share this photo with <br><span>#RedStripeChristmas</span><br>NOW!!</h2>
               </div>
+              <div class="imgholder centerIt-h">
+                <div class="inImg centerIt-h"><img src="assets/images/gui/pop_ups/chd.png" alt=""></div>
+              </div>
+              <div class="shareSect centerIt-h">
+                <div class="holdTX">
+                  <p>Share via:</p>
+                </div>
+                <div class="boxSocial btn-borders">
+                  <div class="fb_linkShare btn_cursor linkBtn">
+                    <p>10<br>Stripes</p>
+                  </div>
+                  <div class="tt_linkShare btn_cursor linkBtn">
+                    <p>5<br>Stripes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="footballChallenge_popUp_gate" class="conteinerPopuP center-all btn-borders"><img src="assets/images/gui/pop_ups/footb.png">
+            <div id="footballChallenge_popUp" class="closePop_codes btn_cursor"></div>
+            <div class="btnsTeamsHolder center-horizontal">
+              <div id="team_1" class="btSeletct btn_cursor btn-borders">
+                <p>Select</p>
+              </div>
+              <div id="team_2" class="btSeletct btn_cursor btn-borders">
+                <p>Select</p>
+              </div>
+            </div>
+          </div>
+          <div id="codesChallenge_popUp_gate" class="conteinerPopuP center-all btn-borders">
+            <div id="codesChallenge_popUp" class="closePop_codes btn_cursor"></div>
+            <div class="holdInputDown center-horizontal">
+              <input type="text" name="codeChallenge" id="codeChallenge" placeholder="CODE">
+            </div>
+            <div class="holdBtns center-horizontal">
+              <div id="submitCodeChallenge" class="btsumit btn_cursor btn-borders">
+                <p>Submit</p>
+              </div>
+            </div>
+          </div>
+          <div id="puntosPerfil_popUp_gate" class="conteinerPopuP center-all btn-borders">
+            <div class="safeArea center-all">
+              <div id="puntosPerfil_popUp" class="closePop_codes btn_cursor"></div>
             </div>
           </div>
         </div>

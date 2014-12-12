@@ -9,6 +9,8 @@ OpenShows = function(){
 		btn_prize: $('.prize-grid-item'),
 		close_elPopUP: $('.close_elPopUP'),
 		bnt_sumit: $('.btsumit'),
+		closePop_codes: $('.closePop_codes'),
+		open_popUp: $('.open_popUp'),
 
 	};
 };
@@ -66,6 +68,17 @@ OpenShows.prototype.bind= function(){
 	s.bnt_sumit.on('click', function(){
 		$('#cheers_salute').css('display', 'block');
 		$('#info_full_prize').css({display: 'none'});
+	});
+	s.open_popUp.on('click', function(){
+		var cual = $(this).attr('id');
+		$('#'+cual+'_popUp_gate').css('display','block');
+		$('#popUp_gate').css('display','block');
+	});
+	s.closePop_codes.on('click',function(){
+		var cual = $(this).attr('id');
+
+		$('#'+cual+'_gate').css('display','none');
+		$('#popUp_gate').css('display','none');
 	});
 };
 OpenShows.prototype.actions= function(wich, all){

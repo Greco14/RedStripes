@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "book";
+  src: url("../assets/fonts/Helvetica-Normal.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Helvetica-Normal.woff") format("woff"), url("../assets/fonts/Helvetica-Normal.ttf") format("truetype"), url("../assets/fonts/Helvetica-Normal.svg#Helvetica-Normal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Bold";
+  src: url("../assets/fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HelveticaNeue-Bold.otf") format("opentype"), url("../assets/fonts/HelveticaNeue-Bold.woff") format("woff"), url("../assets/fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("../assets/fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 #age_gate {
   background-image: url(../assets/images/gui/age/img_bg.png);
   -webkit-background-size: cover;
@@ -872,7 +882,7 @@
       background-image: url(../assets/images/gui/perfil/chal.png);
       background-position: left center; }
   .perfil_bg .safe-all .btmpart .btmTab.btn_cursor {
-    height: 60px;
+    height: 52px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -1299,6 +1309,221 @@
           text-align: center !important; }
   .popUpHolder #sms_info_gate, .popUpHolder #email_info_gate, .popUpHolder #cheers_salute {
     display: none; }
+
+#sendBymail_popUp_gate, #dailyChallenge_popUp_gate, #footballChallenge_popUp_gate, #codesChallenge_popUp_gate {
+  display: none; }
+
+.conteinerPopuP {
+  width: 460px;
+  height: 450px;
+  background-color: #ffffff; }
+  .conteinerPopuP p {
+    color: #4f4f4f !important;
+    text-align: center; }
+    .conteinerPopuP p span {
+      color: #4f4f4f !important;
+      text-align: left !important;
+      font-weight: 700; }
+  .conteinerPopuP .safeArea {
+    width: 95%;
+    height: 90%; }
+    .conteinerPopuP .safeArea .top_img {
+      width: 88px;
+      height: 121px; }
+      .conteinerPopuP .safeArea .top_img img {
+        width: 100%; }
+    .conteinerPopuP .safeArea .copyHello {
+      width: 370px; }
+      .conteinerPopuP .safeArea .copyHello p {
+        margin-bottom: 30px;
+        font-size: 17px; }
+      .conteinerPopuP .safeArea .copyHello .hi {
+        text-align: left !important;
+        margin-left: 90px;
+        margin-bottom: 10px; }
+    .conteinerPopuP .safeArea .linkShare {
+      width: 80%;
+      height: 20px;
+      border-bottom: 1px solid #bebebe;
+      margin-bottom: 30px;
+      padding-bottom: 15px; }
+      .conteinerPopuP .safeArea .linkShare a {
+        color: #000000 !important;
+        font-size: 13px;
+        text-align: center !important; }
+    .conteinerPopuP .safeArea .holdBtns {
+      width: 380px;
+      height: 40px; }
+      .conteinerPopuP .safeArea .holdBtns .btsumit, .conteinerPopuP .safeArea .holdBtns .btcopy {
+        width: 148px;
+        height: 40px;
+        position: relative; }
+        .conteinerPopuP .safeArea .holdBtns .btsumit p, .conteinerPopuP .safeArea .holdBtns .btcopy p {
+          position: relative;
+          top: 11px;
+          left: 17px;
+          color: #ffffff !important;
+          text-align: center !important; }
+      .conteinerPopuP .safeArea .holdBtns .btsumit {
+        float: left;
+        background-color: #ed1c24;
+        background-image: url("../assets/images/gui/age/submit.png");
+        background-position: 20px 11px;
+        background-repeat: no-repeat; }
+      .conteinerPopuP .safeArea .holdBtns .btcopy {
+        float: right;
+        background-color: #0093b8; }
+        .conteinerPopuP .safeArea .holdBtns .btcopy p {
+          left: 0; }
+  .conteinerPopuP .closePop_codes {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    background-image: url("../assets/images/gui/prizes/x2.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+
+#dailyChallenge_popUp_gate, #footballChallenge_popUp_gate, #codesChallenge_popUp_gate {
+  width: 870px;
+  height: 636px;
+  background-image: url("../assets/images/gui/pop_ups/bg_chD.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(47, 47, 47, 0.8); }
+  #dailyChallenge_popUp_gate .topCh, #footballChallenge_popUp_gate .topCh, #codesChallenge_popUp_gate .topCh {
+    margin-top: 5px; }
+    #dailyChallenge_popUp_gate .topCh h2, #footballChallenge_popUp_gate .topCh h2, #codesChallenge_popUp_gate .topCh h2 {
+      color: #ffffff;
+      text-align: center; }
+      #dailyChallenge_popUp_gate .topCh h2 span, #footballChallenge_popUp_gate .topCh h2 span, #codesChallenge_popUp_gate .topCh h2 span {
+        color: #ffffff !important;
+        font-size: 35px;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 27px; }
+  #dailyChallenge_popUp_gate .imgholder, #footballChallenge_popUp_gate .imgholder, #codesChallenge_popUp_gate .imgholder {
+    width: 500px;
+    height: 274px;
+    border-bottom: 2px solid #bebebe;
+    margin-bottom: 20px; }
+    #dailyChallenge_popUp_gate .imgholder .inImg, #footballChallenge_popUp_gate .imgholder .inImg, #codesChallenge_popUp_gate .imgholder .inImg {
+      width: 220px;
+      height: 264px;
+      overflow: hidden; }
+      #dailyChallenge_popUp_gate .imgholder .inImg img, #footballChallenge_popUp_gate .imgholder .inImg img, #codesChallenge_popUp_gate .imgholder .inImg img {
+        width: 100%; }
+  #dailyChallenge_popUp_gate .shareSect, #footballChallenge_popUp_gate .shareSect, #codesChallenge_popUp_gate .shareSect {
+    width: 240px;
+    height: 55px;
+    margin-bottom: 5px; }
+    #dailyChallenge_popUp_gate .shareSect .holdTX, #footballChallenge_popUp_gate .shareSect .holdTX, #codesChallenge_popUp_gate .shareSect .holdTX {
+      float: left;
+      width: 74px;
+      padding-top: 10px;
+      height: 20px; }
+      #dailyChallenge_popUp_gate .shareSect .holdTX p, #footballChallenge_popUp_gate .shareSect .holdTX p, #codesChallenge_popUp_gate .shareSect .holdTX p {
+        color: #000000;
+        top: 10px; }
+    #dailyChallenge_popUp_gate .shareSect .boxSocial, #footballChallenge_popUp_gate .shareSect .boxSocial, #codesChallenge_popUp_gate .shareSect .boxSocial {
+      width: 160px;
+      height: 67px;
+      border: 1px solid #bebebe;
+      position: relative;
+      float: left;
+      background-color: #ffffff; }
+      #dailyChallenge_popUp_gate .shareSect .boxSocial .linkBtn, #footballChallenge_popUp_gate .shareSect .boxSocial .linkBtn, #codesChallenge_popUp_gate .shareSect .boxSocial .linkBtn {
+        position: absolute;
+        top: 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 32px;
+        height: 32px; }
+        #dailyChallenge_popUp_gate .shareSect .boxSocial .linkBtn.fb_linkShare, #footballChallenge_popUp_gate .shareSect .boxSocial .linkBtn.fb_linkShare, #codesChallenge_popUp_gate .shareSect .boxSocial .linkBtn.fb_linkShare {
+          background-image: url(../assets/images/gui/perfil/assets/fb.png);
+          left: 25px; }
+        #dailyChallenge_popUp_gate .shareSect .boxSocial .linkBtn.tt_linkShare, #footballChallenge_popUp_gate .shareSect .boxSocial .linkBtn.tt_linkShare, #codesChallenge_popUp_gate .shareSect .boxSocial .linkBtn.tt_linkShare {
+          background-image: url(../assets/images/gui/perfil/assets/Forma-12.png);
+          left: 103px; }
+        #dailyChallenge_popUp_gate .shareSect .boxSocial .linkBtn.email_linkShare, #footballChallenge_popUp_gate .shareSect .boxSocial .linkBtn.email_linkShare, #codesChallenge_popUp_gate .shareSect .boxSocial .linkBtn.email_linkShare {
+          width: 82px;
+          left: 178px;
+          background-image: url(../assets/images/gui/perfil/assets/email.png); }
+        #dailyChallenge_popUp_gate .shareSect .boxSocial .linkBtn p, #footballChallenge_popUp_gate .shareSect .boxSocial .linkBtn p, #codesChallenge_popUp_gate .shareSect .boxSocial .linkBtn p {
+          font-size: 12px;
+          line-height: 12px;
+          color: #000000;
+          top: 34px; }
+
+#footballChallenge_popUp_gate {
+  overflow: hidden;
+  background-color: rgba(47, 47, 47, 0);
+  background-image: url("../assets/images/gui/pop_ups/footb.png"); }
+  #footballChallenge_popUp_gate img {
+    height: 100%; }
+  #footballChallenge_popUp_gate .closePop_codes {
+    top: 15px; }
+  #footballChallenge_popUp_gate .btnsTeamsHolder {
+    width: 400px;
+    height: 40px;
+    bottom: 130px; }
+    #footballChallenge_popUp_gate .btnsTeamsHolder .btSeletct {
+      width: 110px;
+      height: 40px;
+      position: relative;
+      background-color: #ffffff; }
+      #footballChallenge_popUp_gate .btnsTeamsHolder .btSeletct p {
+        position: relative;
+        top: 11px;
+        color: #000000 !important;
+        text-align: center !important; }
+      #footballChallenge_popUp_gate .btnsTeamsHolder .btSeletct#team_2 {
+        float: right; }
+      #footballChallenge_popUp_gate .btnsTeamsHolder .btSeletct#team_1 {
+        float: left; }
+
+#codesChallenge_popUp_gate {
+  background-color: rgba(47, 47, 47, 0);
+  background-image: url("../assets/images/gui/pop_ups/codes.png"); }
+  #codesChallenge_popUp_gate .closePop_codes {
+    top: 8px;
+    right: 8px; }
+  #codesChallenge_popUp_gate .holdInputDown {
+    width: 360px;
+    height: 40px;
+    bottom: 90px; }
+    #codesChallenge_popUp_gate .holdInputDown input {
+      text-align: center; }
+  #codesChallenge_popUp_gate .holdBtns {
+    width: 148px;
+    height: 40px;
+    bottom: 40px; }
+    #codesChallenge_popUp_gate .holdBtns .btsumit, #codesChallenge_popUp_gate .holdBtns .btcopy {
+      width: 148px;
+      height: 40px;
+      position: relative; }
+      #codesChallenge_popUp_gate .holdBtns .btsumit p, #codesChallenge_popUp_gate .holdBtns .btcopy p {
+        position: relative;
+        top: 11px;
+        left: 17px;
+        color: #ffffff !important;
+        text-align: center !important; }
+    #codesChallenge_popUp_gate .holdBtns .btsumit {
+      float: left;
+      background-color: #ed1c24;
+      background-image: url("../assets/images/gui/age/submit.png");
+      background-position: 20px 11px;
+      background-repeat: no-repeat; }
+    #codesChallenge_popUp_gate .holdBtns .btcopy {
+      float: right;
+      background-color: #0093b8; }
+      #codesChallenge_popUp_gate .holdBtns .btcopy p {
+        left: 0; }
+
+#puntosPerfil_popUp_gate {
+  background-color: rgba(47, 47, 47, 0);
+  background-image: url("../assets/images/gui/pop_ups/prizes.png"); }
 
 html, body {
   margin: 0 auto;
