@@ -108,6 +108,8 @@
           background-image: url("../assets/images/gui/age/remider.png");
           background-position: center;
           background-repeat: no-repeat; }
+      #age_gate .downHold .remindMeHold p {
+        width: 110px; }
     #age_gate .downHold .btsumit {
       width: 148px;
       height: 40px;

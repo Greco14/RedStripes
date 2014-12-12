@@ -13,6 +13,7 @@ Dropdowns = function(){
 		confirm: $('.holdConfirmation'),
 		sorry: $('.sorry_hold'),
 		btn_back: $('.btn_back'),
+		checkbox_age: $('.checkbox_age'),
 
 
 	};
@@ -87,6 +88,55 @@ Dropdowns.prototype.bind = function(){
 		s.sorry.css('display', 'none');
 		s.confirm.css('display', 'none');
 	})
+	$('.checkbox_age').on('click',  function(){
+		var rember = $('#rememberMe_box').val();
+		console.log('shits'+rember);
+		if(rember == 'yes'){
+			$('#rememberMe_box').val('no');
+			$('.checkbox_age').removeClass('activeone');
+			
+		}else{
+			$('#rememberMe_box').val('yes');
+			$('.checkbox_age').addClass('activeone');
+		}
+	});
+	var recordar =false;
+	$('#submit_age_gate').on('click',function(){
+		var rember = $('#rememberMe_box').val();
+		if(rember == 'yes'){
+		 recor = 1;
+		}
+		$.ajax({
+			type: "POST",
+			url: "xcm/set_session.php",
+			data: {
+				// dd: dd,
+				// mm: mm,
+				// yyyy: aaaa,
+				keepl: recor
+			}
+		}).done(function(msg) {
+			if (msg == "under") {
+				window.location.href = "http://www.alcoholinformate.org.mx/";
+			} else{
+				console.log(msg);
+			}
+		});
+	});
+	function goTo(){
+		$.ajax({
+			type: "POST",
+			url: "xcm/get_session.php"
+		}).done(function(msg) {
+			if (msg == "0") {
+				$("#age_gate").css("display", "block");
+			} else{
+				if (msg == "18") {
+					console.log('Here');
+				}
+			}
+		});
+	}
 
 
 
