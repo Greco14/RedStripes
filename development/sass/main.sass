@@ -15,6 +15,9 @@
 
 @import "_shareEmail"
 @import "_dailyChallenge"
+@import "_terms"
+@import "_full_profile"
+
 
 
 html,body
@@ -24,8 +27,8 @@ html,body
 	min-height: 760px
 	height: 100%
 	position: relative
-	font-family: helvetica
-	font-family: 'Lato', sans-serif
+	font-family: 'normal', helvetica
+
 
 	
 	
@@ -137,7 +140,7 @@ section
 	height: 100%
 	min-height: 780px
 	position: relative
-	overflow: hidden
+
 	.imgbG
 		width: 100%
 		height: 100%
@@ -178,6 +181,39 @@ input[type="text"], input[type="number"], input[type="password"]
 	background-color: $blanco
 	border: none
 	color: $negro
+#footer
+	width: 100%
+	height: 50px
+	position: fixed
+	bottom: 0
+	left: 0
+	background-color: #3f0000
+	z-index: 1
+	.safefOOTER
+		width: 940px
+		height: 15px
+		padding-top: 20px
+		p , a
+			color: #826565
+			font-size: 12px
+			span 
+				color: #826565
+				font-size: 10px
+				display: inline
+				margin-left: 10px
+				margin-right: 10px
+		.left
+			width: 250px
+			height: 15px
+			float: left
+		.right
+			float: right
+			
+
+
+
+
+
 
 
 

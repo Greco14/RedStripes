@@ -98,6 +98,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_full_profile.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_full_profile.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_full_profile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_loggin.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -210,6 +226,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/sass\/_terms.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/sass\/_terms.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_terms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/sass\/_vars.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -270,6 +302,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_openShows.js",
 		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_openShows-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/gui\/_tems.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_tems.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_tems-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -358,6 +401,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/development\/views\/includes\/_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_footer.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/development\/views\/includes\/_headers.jade": {
 		"compileDebug": 1,
@@ -476,6 +530,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/confirm\/_confirmation.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/confirm\/_confirmation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/ful_profile\/_full_profile.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/ful_profile\/_full_profile.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/development\/views\/includes\/ful_profile\/_full_profile.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/ful_profile\/_full_profile.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/ful_profile\/_full_profile.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -729,6 +803,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/register\/_register.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/register\/_register.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/terms\/_terms.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/terms\/_terms.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/terms\/_terms.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -1171,6 +1256,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/gui\/perfil\/_profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22935,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/_profile.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/_profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/gui\/perfil\/assets\/drop_Down_account.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1233,6 +1329,17 @@
 		"initialSize": 1324,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/friends_so_far.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/friends_so_far.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/gui\/perfil\/assets\/Green_tick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2270,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/Green_tick.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/assets\/Green_tick.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1351,7 +1458,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22935,
+		"initialSize": 8132,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/profile.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/gui\/perfil\/profile.png",
 		"outputPathIsOutsideProject": 0,
@@ -1616,12 +1723,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/scripts\/datajs-1.1.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/datajs-1.1.2.min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/min\/datajs-1.1.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/scripts\/main.js",
 		"outputAbbreviatedPath": "\/public\/scripts\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/odatajs-4.0.0-beta-01.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/odatajs-4.0.0-beta-01.min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/min\/odatajs-4.0.0-beta-01.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

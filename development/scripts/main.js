@@ -40,6 +40,94 @@ var Received;
 // function myfunc(json) {
 //   console.log(json);
 // }
+// $(function() {
+//   alert('Charged!!')
+//     var size = $("#full_p > p").size();
+//   $(".Column1 > p").each(function(index){
+//     var counting = size/3;
+//     console.log(counting);
+//     if (index >= counting){
+//       $(this).appendTo(".Column2");
+//     }
+//     if(index>= counting*2){
+//        $(this).appendTo(".Column3");
+//     }
+//   });
+// });
+
+
+var first_fill ;
+
+
+
+
+first_fill = function(name, lastname, cellphone, email, age, confirmationCode, password, temporaryPassword) {
+  var headers, newPerson, request, serviceRoot ;
+  var oHeaders = {}
+  serviceRoot = "https://www.redstriperewards.com/services/";
+  headers =  { "DataServiceVersion": "2.0;AspNetAjax" };
+  oHeaders['Content-Type'] = "application/atom+xml";
+  oHeaders['DataServiceVersion'] = "2.0";
+  newPerson = {
+    name: name,
+    lastname: lastname,
+    cellphone: cellphone,
+    email: email,
+    age: age,
+    confirmationCode: confirmationCode,
+    password: password,
+    temporaryPassword: temporaryPassword
+  };
+  console.log(newPerson)
+  // request = {
+  //   requestUri: serviceRoot + "users",
+  //   method: "GET",
+  //   headers: headers,
+  //   data: newPerson
+  // };
+
+  requested = { 
+     headers : oHeaders, // object that contains HTTP headers as name value pairs 
+    requestUri : serviceRoot + "users", // OData endpoint URI 
+    method : 'POST', // HTTP method (GET, POST, PUT, DELETE) 
+    data : newPerson
+};
+console.log(requested);
+  OData.request(requested, (function(data, response) {
+     console.log(response);
+  }), function(err) {
+    alert("Fail: " + err.Message);
+  });
+
+  // OData.request(request , function (data, response) {
+  //       //success handler
+  //       console.log(response);
+  //   }, undefined, OData.batchHandler);
+
+  // OData.request( {
+  //    requestUri: serviceRoot + "users",
+  //    method: "POST",
+  //    data: { __batchRequests: [
+  //            {
+  //               name: name,
+  //               lastname: lastname,
+  //               cellphone: cellphone,
+  //               email: email,
+  //               age: age,
+  //               confirmationCode: confirmationCode,
+  //               password: password,
+  //               temporaryPassword: temporaryPassword
+  //             }
+  //    ]}
+  //    }, function (data, response) {
+  //        //success handler
+  //        console.log(response);
+  //   }, undefined, OData.batchHandler);
+
+};
+
+
+first_fill('Carlso', 'davila', '123423423', 'c@ho.xm',  '18', '25', '25', '25');
 Main = {
   init: function(){
     dropdowns = new Dropdowns();

@@ -1,13 +1,11 @@
 @font-face {
-  font-family: "book";
-  src: url("../assets/fonts/Helvetica-Normal.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Helvetica-Normal.woff") format("woff"), url("../assets/fonts/Helvetica-Normal.ttf") format("truetype"), url("../assets/fonts/Helvetica-Normal.svg#Helvetica-Normal") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: "normal";
+  src: url("fonts/2C7F4A_0_0.eot");
+  src: url("fonts/2C7F4A_0_0.eot?#iefix") format("embedded-opentype") url("fonts/2C7F4A_0_0.woff2") format("woff2") url("fonts/2C7F4A_0_0.woff") format("woff") url("fonts/2C7F4A_0_0.ttf") format("truetype"); }
 @font-face {
-  font-family: "Bold";
-  src: url("../assets/fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/HelveticaNeue-Bold.otf") format("opentype"), url("../assets/fonts/HelveticaNeue-Bold.woff") format("woff"), url("../assets/fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("../assets/fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: "bold";
+  src: url("fonts/2C7F4A_1_0.eot");
+  src: url("fonts/2C7F4A_1_0.eot?#iefix") format("embedded-opentype") url("fonts/2C7F4A_1_0.woff2") format("woff2") url("fonts/2C7F4A_1_0.woff") format("woff") url("fonts/2C7F4A_1_0.ttf") format("truetype"); }
 #age_gate {
   background-image: url(../assets/images/gui/age/img_bg.png);
   -webkit-background-size: cover;
@@ -1527,6 +1525,321 @@
   background-color: rgba(47, 47, 47, 0);
   background-image: url("../assets/images/gui/pop_ups/prizes.png"); }
 
+.Terms_andConditions {
+  height: 2270px !important; }
+  .Terms_andConditions .logoTerms {
+    width: 120px;
+    height: 171px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+    .Terms_andConditions .logoTerms img {
+      width: 100%; }
+  .Terms_andConditions h2 {
+    color: #ffffff;
+    font-family: "bold";
+    margin-bottom: 30px; }
+  .Terms_andConditions .CoumnsHolder {
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1925px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .Terms_andConditions .CoumnsHolder .section-third {
+      width: 30%;
+      padding-right: 1.65%;
+      padding-left: 1.65%; }
+      .Terms_andConditions .CoumnsHolder .section-third p {
+        font-size: 12px;
+        text-align: justify; }
+      .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn {
+        width: 142px;
+        height: 42px;
+        float: left;
+        margin-left: 20px;
+        position: absolute;
+        bottom: 30px;
+        right: 150px; }
+        .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm {
+          width: 142px;
+          height: 42px;
+          position: relative;
+          float: left;
+          background-repeat: no-repeat; }
+          .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm p {
+            position: relative;
+            left: 8px;
+            top: 10px;
+            color: #ffffff;
+            font-family: "bold";
+            text-align: center !important;
+            font-size: 14px !important; }
+          .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm.btn_conf {
+            margin-left: 28px;
+            background-color: #ed1c24;
+            background-image: url("../assets/images/gui/age/confi.png");
+            background-position: 17px center; }
+            .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm.btn_conf:hover {
+              background-color: #b80000; }
+          .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm.btn_back {
+            background-color: #ffffff;
+            background-image: url("../assets/images/gui/age/back.png");
+            background-position: 20px center; }
+            .Terms_andConditions .CoumnsHolder .section-third .holdVeryfied_btn .btns_btm.btn_back p {
+              color: #000000; }
+
+#profile_gate .safe-all {
+  position: relative;
+  border-bottom: 7px solid #270e0e;
+  height: 550px !important; }
+  #profile_gate .safe-all .pestana {
+    width: 100%;
+    height: 53px;
+    position: absolute;
+    background-image: url(../assets/images/gui/perfil/pestanaL.png);
+    background-repeat-y: no-repeat;
+    background-position: center bottom;
+    top: -53px;
+    left: 0; }
+    #profile_gate .safe-all .pestana .nameIt {
+      width: 190px;
+      height: 20px;
+      padding-top: 20px; }
+      #profile_gate .safe-all .pestana .nameIt h2 {
+        font-family: "bold";
+        color: #ffffff;
+        font-size: 19px; }
+  #profile_gate .safe-all .inerSafe {
+    width: 95%;
+    height: 100%; }
+    #profile_gate .safe-all .inerSafe .rows {
+      float: left;
+      height: 100%;
+      position: relative; }
+      #profile_gate .safe-all .inerSafe .rows.sndRow {
+        width: 55%; }
+      #profile_gate .safe-all .inerSafe .rows.firsteRow {
+        width: 22.5%; }
+    #profile_gate .safe-all .inerSafe .firsteRow .holdImg {
+      height: 100px;
+      width: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
+      #profile_gate .safe-all .inerSafe .firsteRow .holdImg img {
+        width: 100px; }
+    #profile_gate .safe-all .inerSafe .firsteRow .holdBtnup {
+      width: 180px;
+      height: 30px;
+      overflow: hidden;
+      background-color: #bebebe; }
+      #profile_gate .safe-all .inerSafe .firsteRow .holdBtnup p {
+        width: 100%;
+        position: absolute;
+        top: 7px;
+        color: #2b2b2b;
+        text-align: center !important; }
+      #profile_gate .safe-all .inerSafe .firsteRow .holdBtnup input {
+        width: 100%;
+        margin: 0 auto;
+        opacity: 0;
+        z-index: 1; }
+    #profile_gate .safe-all .inerSafe .firsteRow .icoHold {
+      width: 120px;
+      height: 171px;
+      position: absolute;
+      top: 30px;
+      right: 0; }
+      #profile_gate .safe-all .inerSafe .firsteRow .icoHold img {
+        width: 100%; }
+    #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn {
+      width: 142px;
+      height: 42px;
+      float: left;
+      margin-left: 20px;
+      position: absolute;
+      bottom: 30px;
+      right: 0px; }
+      #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm {
+        width: 142px;
+        height: 42px;
+        position: relative;
+        float: left;
+        background-repeat: no-repeat; }
+        #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm p {
+          position: relative;
+          left: 8px;
+          top: 10px;
+          color: #ffffff;
+          font-family: "bold";
+          text-align: center !important;
+          font-size: 14px !important; }
+        #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm.btn_conf {
+          margin-left: 28px;
+          background-color: #ed1c24;
+          background-image: url("../assets/images/gui/age/confi.png");
+          background-position: 17px center; }
+          #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm.btn_conf:hover {
+            background-color: #b80000; }
+        #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm.btn_back {
+          background-color: #ffffff;
+          background-image: url("../assets/images/gui/age/back.png");
+          background-position: 20px center;
+          border: 1px solid #bebebe; }
+          #profile_gate .safe-all .inerSafe .firsteRow .holdVeryfied_btn .btns_btm.btn_back p {
+            color: #000000; }
+    #profile_gate .safe-all .inerSafe .sndRow .topInputs {
+      width: 100%;
+      height: 154px;
+      padding-top: 20px; }
+      #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px; }
+        #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .inputhold {
+          width: 325px;
+          float: left;
+          height: 30px;
+          overflow: hidden; }
+          #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .inputhold input[type="text"] {
+            background-color: #bebebe !important;
+            font-size: 17px; }
+        #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .textName {
+          width: 117px;
+          height: 30px;
+          float: left;
+          position: relative;
+          margin-left: 10px; }
+          #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .textName p {
+            font-size: 18px;
+            font-family: "bold";
+            color: #000000;
+            text-align: left;
+            top: 7px; }
+        #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .textName.edit.btn_cursor {
+          width: 50px; }
+          #profile_gate .safe-all .inerSafe .sndRow .topInputs .holdiPS .textName.edit.btn_cursor p {
+            font-size: 15px;
+            text-decoration: underline;
+            color: #bebebe;
+            top: 10px;
+            text-align: center; }
+    #profile_gate .safe-all .inerSafe .sndRow .socTop {
+      padding-top: 15px;
+      height: 40px;
+      padding-bottom: 15px;
+      width: 100%;
+      position: relative; }
+      #profile_gate .safe-all .inerSafe .sndRow .socTop .nameAc {
+        width: 190px;
+        height: 30px;
+        float: left; }
+        #profile_gate .safe-all .inerSafe .sndRow .socTop .nameAc p {
+          color: #000000;
+          font-family: "bold";
+          top: 8px; }
+      #profile_gate .safe-all .inerSafe .sndRow .socTop .lineYellow {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+      #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected {
+        width: 205px;
+        height: 23px;
+        float: left;
+        position: relative;
+        top: 0px; }
+        #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI {
+          width: 45px;
+          height: 23px;
+          float: left;
+          margin-right: 28px;
+          position: relative; }
+          #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .faceIcon {
+            width: 23px;
+            height: 23px;
+            position: relative;
+            float: left;
+            background-repeat: no-repeat;
+            background-position: center; }
+            #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .faceIcon#fb_perfil {
+              background-image: url("../assets/images/gui/perfil/assets/fb.png"); }
+            #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .faceIcon#tt_perfil {
+              background-image: url("../assets/images/gui/perfil/assets/Forma-12.png"); }
+            #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .faceIcon#cel_perfil {
+              width: 17px;
+              background-image: url("../assets/images/gui/perfil/assets/phone_red.png"); }
+          #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .arrowSelect {
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            top: -5px;
+            right: 5px;
+            display: none; }
+            #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .arrowSelect img {
+              width: 100%; }
+            #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .fcclocI .arrowSelect.active {
+              display: block; }
+        #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .phcL {
+          margin-right: 0; }
+          #profile_gate .safe-all .inerSafe .sndRow .socTop .holdConccected .phcL .arrowSelect {
+            right: 13px; }
+    #profile_gate .safe-all .inerSafe .sndRow .lastOnes {
+      width: 100%;
+      height: 137px;
+      overflow: scroll; }
+      #profile_gate .safe-all .inerSafe .sndRow .lastOnes .nameAc p {
+        top: 17px; }
+      #profile_gate .safe-all .inerSafe .sndRow .lastOnes .friendsHolder {
+        width: 280px;
+        height: auto;
+        padding-top: 20px;
+        float: left; }
+        #profile_gate .safe-all .inerSafe .sndRow .lastOnes .friendsHolder .friendsIt {
+          width: 100%;
+          height: 30px;
+          margin-bottom: 10px;
+          background-color: #bebebe;
+          background-image: url("../assets/images/gui/perfil/assets/friends_so_far.png");
+          background-repeat: no-repeat;
+          background-position: 10px center; }
+          #profile_gate .safe-all .inerSafe .sndRow .lastOnes .friendsHolder .friendsIt p {
+            color: #2b2b2b;
+            left: 35px;
+            top: 7px; }
+    #profile_gate .safe-all .inerSafe .sndRow .referPar {
+      width: 100%;
+      height: 120px;
+      padding-top: 20px;
+      position: relative;
+      overflow: scroll; }
+      #profile_gate .safe-all .inerSafe .sndRow .referPar .redmAc {
+        margin-bottom: 15px; }
+        #profile_gate .safe-all .inerSafe .sndRow .referPar .redmAc p {
+          color: #000000;
+          text-align: center !important;
+          font-family: "bold"; }
+      #profile_gate .safe-all .inerSafe .sndRow .referPar .holdPrizes {
+        width: 280px;
+        height: auto; }
+        #profile_gate .safe-all .inerSafe .sndRow .referPar .holdPrizes .prizsesIt {
+          width: 100%;
+          height: 30px;
+          margin-bottom: 10px;
+          background-color: #bebebe; }
+          #profile_gate .safe-all .inerSafe .sndRow .referPar .holdPrizes .prizsesIt p {
+            color: #2b2b2b;
+            left: 0px;
+            top: 7px;
+            text-align: center; }
+    #profile_gate .safe-all .inerSafe .lineYellow {
+      width: 300px;
+      height: 2px;
+      background-color: #ede0ac; }
+
 html, body {
   margin: 0 auto;
   min-width: 980px;
@@ -1534,8 +1847,7 @@ html, body {
   min-height: 760px;
   height: 100%;
   position: relative;
-  font-family: helvetica;
-  font-family: "Lato", sans-serif; }
+  font-family: "normal", helvetica; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
   color: #ffffff;
@@ -1641,8 +1953,7 @@ section {
   width: 100%;
   height: 100%;
   min-height: 780px;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
   #wrapper .imgbG {
     width: 100%;
     height: 100%;
@@ -1685,3 +1996,31 @@ input[type="text"], input[type="number"], input[type="password"] {
   background-color: #ffffff;
   border: none;
   color: #000000; }
+
+#footer {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #3f0000;
+  z-index: 1; }
+  #footer .safefOOTER {
+    width: 940px;
+    height: 15px;
+    padding-top: 20px; }
+    #footer .safefOOTER p, #footer .safefOOTER a {
+      color: #826565;
+      font-size: 12px; }
+      #footer .safefOOTER p span, #footer .safefOOTER a span {
+        color: #826565;
+        font-size: 10px;
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px; }
+    #footer .safefOOTER .left {
+      width: 250px;
+      height: 15px;
+      float: left; }
+    #footer .safefOOTER .right {
+      float: right; }
