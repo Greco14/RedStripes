@@ -58,16 +58,44 @@ var Received;
 
 var first_fill ;
 
+var headers, newPerson, request, serviceRoot ;
+var oHeaders = {}
+  serviceRoot = "https://www.redstriperewards.com/services/";
+  // headers =  { "DataServiceVersion": "2.0" };
 
+  // oHeaders['accept']='application/json;charset=utf-8';
+  // oHeaders['application/json;odata']='fullmetadata';
+  // // oHeaders['q']='0.7, application/json'; 
+  // // oHeaders['q']='0.5, */*;q=0.1';
+  // // oHeaders['X-CSRF-Token']='header_xcsrf_token';
+  // oHeaders['DataServiceVersion'] = "2.0";
+  oHeaders = {
+    'DataServiceVersion': '2.0',
+    'MaxDataServiceVersion': '3.0',
+    'Content-Type': 'application/json; charset=utf-8',
+    'Accept': 'application/json'
+  }
+
+  // oHeaders= {"X-Requested-With": "XMLHttpRequest",                        
+  //                          "Content-Type": "application/atom+xml", 
+  //                           "DataServiceVersion": "2.0",  
+  //                           "Accept": "application/atom+xml,application/atomsvc+xml,application/xml", 
+  //                            "X-CSRF-Token": 'header_xcsrf_token'}  
+  // oHeaders['Content-Type'] = "application/atom+xml";
+  // oHeaders['DataServiceVersion'] = "2.0";
+// oHeaders["x-http-method"] = "MERGE";
+OData.defaultHttpClient.enableJsonpCallback = true;
+OData.jsonHandler.recognizeDates = true;
+// request = { 
+//     headers : oHeaders, // object that contains HTTP headers as name value pairs 
+//     requestUri : updateUrl, // OData endpoint URI 
+//     method : "POST", // HTTP method (GET, POST, PUT, DELETE) 
+//     data : entry // Payload of the request (in intermediate format) 
+// };
 
 
 first_fill = function(name, lastname, cellphone, email, age, confirmationCode, password, temporaryPassword) {
-  var headers, newPerson, request, serviceRoot ;
-  var oHeaders = {}
-  serviceRoot = "https://www.redstriperewards.com/services/";
-  headers =  { "DataServiceVersion": "2.0;AspNetAjax" };
-  oHeaders['Content-Type'] = "application/atom+xml";
-  oHeaders['DataServiceVersion'] = "2.0";
+  
   newPerson = {
     name: name,
     lastname: lastname,
@@ -79,24 +107,25 @@ first_fill = function(name, lastname, cellphone, email, age, confirmationCode, p
     temporaryPassword: temporaryPassword
   };
   console.log(newPerson)
-  // request = {
-  //   requestUri: serviceRoot + "users",
-  //   method: "GET",
-  //   headers: headers,
-  //   data: newPerson
-  // };
 
-  requested = { 
-     headers : oHeaders, // object that contains HTTP headers as name value pairs 
+
+//   requested = { 
+//      // headers : oHeaders, // object that contains HTTP headers as name value pairs 
+//     requestUri : serviceRoot + "users", // OData endpoint URI 
+//     method : 'POST', // HTTP method (GET, POST, PUT, DELETE) 
+//     data : newPerson
+// };
+requested = { 
+    headers : oHeaders, // object that contains HTTP headers as name value pairs 
     requestUri : serviceRoot + "users", // OData endpoint URI 
-    method : 'POST', // HTTP method (GET, POST, PUT, DELETE) 
-    data : newPerson
+    method : "POST", // HTTP method (GET, POST, PUT, DELETE) 
+    data : newPerson // Payload of the request (in intermediate format) 
 };
 console.log(requested);
   OData.request(requested, (function(data, response) {
      console.log(response);
   }), function(err) {
-    alert("Fail: " + err.Message);
+    console.log(err);
   });
 
   // OData.request(request , function (data, response) {
@@ -128,6 +157,12 @@ console.log(requested);
 
 
 first_fill('Carlso', 'davila', '123423423', 'c@ho.xm',  '18', '25', '25', '25');
+
+OData.read(serviceRoot + "locations",
+  function(data){
+    console.log(data);
+  }
+);
 Main = {
   init: function(){
     dropdowns = new Dropdowns();
